@@ -1,0 +1,94 @@
+[0.016s] Invoking command in '/home/bracualter-base/alter_ws/build/cartographer_slam': AMENT_PREFIX_PATH=/home/bracualter-base/alter_ws/install/wit_ros2_imu:/home/bracualter-base/alter_ws/install/cartographer_slam:/home/bracualter-base/alter_ws/install/rplidar_ros:/home/bracualter-base/ros2_ws/install/cartographer_slam:/home/bracualter-base/ros2_ws/install/wit_ros2_imu:/home/bracualter-base/ros2_ws/install/rplidar_ros:/home/bracualter-base/ros2_ws/install/joy_control:/home/bracualter-base/ros2_ws/install/demo_description:/opt/ros/jazzy CMAKE_PREFIX_PATH=/home/bracualter-base/alter_ws/install/rplidar_ros:/home/bracualter-base/alter_ws/install/cartographer_slam:/home/bracualter-base/ros2_ws/install/cartographer_slam:/home/bracualter-base/ros2_ws/install/rplidar_ros:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/bracualter-base/alter_ws/install/wit_ros2_imu:/home/bracualter-base/ros2_ws/install/wit_ros2_imu:/home/bracualter-base/ros2_ws/install/joy_control:/home/bracualter-base/ros2_ws/install/demo_description:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/bracualter-base/alter_ws/src/cartographer_slam -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/bracualter-base/alter_ws/install/cartographer_slam
+[0.034s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.310s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.318s] -- Found cartographer_ros: 2.0.9003 (/opt/ros/jazzy/share/cartographer_ros/cmake)
+[0.353s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.363s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.377s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.394s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.717s] -- Found AMD headers in: /usr/include/suitesparse
+[0.717s] -- Found AMD library: /usr/lib/x86_64-linux-gnu/libamd.so
+[0.717s] -- Found CAMD headers in: /usr/include/suitesparse
+[0.717s] -- Found CAMD library: /usr/lib/x86_64-linux-gnu/libcamd.so
+[0.718s] -- Found CCOLAMD headers in: /usr/include/suitesparse
+[0.718s] -- Found CCOLAMD library: /usr/lib/x86_64-linux-gnu/libccolamd.so
+[0.718s] -- Found CHOLMOD headers in: /usr/include/suitesparse
+[0.718s] -- Found CHOLMOD library: /usr/lib/x86_64-linux-gnu/libcholmod.so
+[0.718s] -- Found COLAMD headers in: /usr/include/suitesparse
+[0.718s] -- Found COLAMD library: /usr/lib/x86_64-linux-gnu/libcolamd.so
+[0.718s] -- Found SPQR headers in: /usr/include/suitesparse
+[0.719s] -- Found SPQR library: /usr/lib/x86_64-linux-gnu/libspqr.so
+[0.719s] -- Found Config headers in: /usr/include/suitesparse
+[0.719s] -- Found Config library: /usr/lib/x86_64-linux-gnu/libsuitesparseconfig.so
+[0.719s] -- Found Intel Thread Building Blocks (TBB) library (2021.11 / ) include location: . Assuming SuiteSparseQR was compiled with TBB.
+[0.719s] -- Adding librt to SuiteSparse_config libraries (required on Linux & Unix [not OSX] if SuiteSparse is compiled with timing).
+[0.726s] -- Could NOT find METIS (missing: METIS_INCLUDE_DIR METIS_LIBRARY) 
+[0.917s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.919s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.005s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.182s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:45 (find_package):
+[1.182s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[1.183s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[1.183s]   cmake_policy command to set the policy and suppress this warning.
+[1.183s] 
+[1.183s]   CMake variable FLANN_ROOT is set to:
+[1.183s] 
+[1.183s]     /usr
+[1.183s] 
+[1.183s]   For compatibility, find_package is ignoring the variable, but code in a
+[1.183s]   .cmake module might still use it.
+[1.183s] Call Stack (most recent call first):
+[1.183s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:261 (find_package)
+[1.183s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:306 (find_flann)
+[1.183s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)
+[1.183s]   /opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.183s]   /opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+[1.183s]   /opt/ros/jazzy/share/cartographer_ros/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.184s]   /opt/ros/jazzy/share/cartographer_ros/cmake/cartographer_rosConfig.cmake:41 (include)
+[1.184s]   CMakeLists.txt:10 (find_package)
+[1.184s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.184s] [0m
+[1.184s] -- Found flann version 1.9.2
+[1.860s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.872s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.877s] -- Could NOT find Pcap (missing: PCAP_LIBRARIES PCAP_INCLUDE_DIRS) 
+[2.505s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.519s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.075s] -- Found Qhull version 8.0.2
+[3.597s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.321s] -- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+[4.333s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[4.449s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.450s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.450s] -- Configured 'flake8' exclude dirs and/or files: 
+[4.451s] -- Added test 'lint_cmake' to check CMake code style
+[4.451s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.452s] -- Added test 'xmllint' to check XML markup files
+[4.453s] -- Configuring done (4.4s)
+[4.463s] -- Generating done (0.0s)
+[4.467s] -- Build files have been written to: /home/bracualter-base/alter_ws/build/cartographer_slam
+[4.489s] Invoked command in '/home/bracualter-base/alter_ws/build/cartographer_slam' returned '0': AMENT_PREFIX_PATH=/home/bracualter-base/alter_ws/install/wit_ros2_imu:/home/bracualter-base/alter_ws/install/cartographer_slam:/home/bracualter-base/alter_ws/install/rplidar_ros:/home/bracualter-base/ros2_ws/install/cartographer_slam:/home/bracualter-base/ros2_ws/install/wit_ros2_imu:/home/bracualter-base/ros2_ws/install/rplidar_ros:/home/bracualter-base/ros2_ws/install/joy_control:/home/bracualter-base/ros2_ws/install/demo_description:/opt/ros/jazzy CMAKE_PREFIX_PATH=/home/bracualter-base/alter_ws/install/rplidar_ros:/home/bracualter-base/alter_ws/install/cartographer_slam:/home/bracualter-base/ros2_ws/install/cartographer_slam:/home/bracualter-base/ros2_ws/install/rplidar_ros:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/bracualter-base/alter_ws/install/wit_ros2_imu:/home/bracualter-base/ros2_ws/install/wit_ros2_imu:/home/bracualter-base/ros2_ws/install/joy_control:/home/bracualter-base/ros2_ws/install/demo_description:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/bracualter-base/alter_ws/src/cartographer_slam -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/bracualter-base/alter_ws/install/cartographer_slam
+[4.491s] Invoking command in '/home/bracualter-base/alter_ws/build/cartographer_slam': AMENT_PREFIX_PATH=/home/bracualter-base/alter_ws/install/wit_ros2_imu:/home/bracualter-base/alter_ws/install/cartographer_slam:/home/bracualter-base/alter_ws/install/rplidar_ros:/home/bracualter-base/ros2_ws/install/cartographer_slam:/home/bracualter-base/ros2_ws/install/wit_ros2_imu:/home/bracualter-base/ros2_ws/install/rplidar_ros:/home/bracualter-base/ros2_ws/install/joy_control:/home/bracualter-base/ros2_ws/install/demo_description:/opt/ros/jazzy CMAKE_PREFIX_PATH=/home/bracualter-base/alter_ws/install/rplidar_ros:/home/bracualter-base/alter_ws/install/cartographer_slam:/home/bracualter-base/ros2_ws/install/cartographer_slam:/home/bracualter-base/ros2_ws/install/rplidar_ros:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/bracualter-base/alter_ws/install/wit_ros2_imu:/home/bracualter-base/ros2_ws/install/wit_ros2_imu:/home/bracualter-base/ros2_ws/install/joy_control:/home/bracualter-base/ros2_ws/install/demo_description:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/bracualter-base/alter_ws/build/cartographer_slam -- -j16 -l16
+[4.554s] Invoked command in '/home/bracualter-base/alter_ws/build/cartographer_slam' returned '0': AMENT_PREFIX_PATH=/home/bracualter-base/alter_ws/install/wit_ros2_imu:/home/bracualter-base/alter_ws/install/cartographer_slam:/home/bracualter-base/alter_ws/install/rplidar_ros:/home/bracualter-base/ros2_ws/install/cartographer_slam:/home/bracualter-base/ros2_ws/install/wit_ros2_imu:/home/bracualter-base/ros2_ws/install/rplidar_ros:/home/bracualter-base/ros2_ws/install/joy_control:/home/bracualter-base/ros2_ws/install/demo_description:/opt/ros/jazzy CMAKE_PREFIX_PATH=/home/bracualter-base/alter_ws/install/rplidar_ros:/home/bracualter-base/alter_ws/install/cartographer_slam:/home/bracualter-base/ros2_ws/install/cartographer_slam:/home/bracualter-base/ros2_ws/install/rplidar_ros:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/bracualter-base/alter_ws/install/wit_ros2_imu:/home/bracualter-base/ros2_ws/install/wit_ros2_imu:/home/bracualter-base/ros2_ws/install/joy_control:/home/bracualter-base/ros2_ws/install/demo_description:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/bracualter-base/alter_ws/build/cartographer_slam -- -j16 -l16
+[4.569s] Invoking command in '/home/bracualter-base/alter_ws/build/cartographer_slam': AMENT_PREFIX_PATH=/home/bracualter-base/alter_ws/install/wit_ros2_imu:/home/bracualter-base/alter_ws/install/cartographer_slam:/home/bracualter-base/alter_ws/install/rplidar_ros:/home/bracualter-base/ros2_ws/install/cartographer_slam:/home/bracualter-base/ros2_ws/install/wit_ros2_imu:/home/bracualter-base/ros2_ws/install/rplidar_ros:/home/bracualter-base/ros2_ws/install/joy_control:/home/bracualter-base/ros2_ws/install/demo_description:/opt/ros/jazzy CMAKE_PREFIX_PATH=/home/bracualter-base/alter_ws/install/rplidar_ros:/home/bracualter-base/alter_ws/install/cartographer_slam:/home/bracualter-base/ros2_ws/install/cartographer_slam:/home/bracualter-base/ros2_ws/install/rplidar_ros:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/bracualter-base/alter_ws/install/wit_ros2_imu:/home/bracualter-base/ros2_ws/install/wit_ros2_imu:/home/bracualter-base/ros2_ws/install/joy_control:/home/bracualter-base/ros2_ws/install/demo_description:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/bracualter-base/alter_ws/build/cartographer_slam
+[4.580s] -- Install configuration: ""
+[4.581s] -- Execute custom install script
+[4.581s] -- Up-to-date symlink: /home/bracualter-base/alter_ws/install/cartographer_slam/share/cartographer_slam/launch/cartographer_2d.launch.py
+[4.582s] -- Up-to-date symlink: /home/bracualter-base/alter_ws/install/cartographer_slam/share/cartographer_slam/config/cartographer_2d.lua
+[4.582s] -- Symlinking: /home/bracualter-base/alter_ws/install/cartographer_slam/lib/cartographer_slam/save_map_geotiff.py
+[4.592s] -- Up-to-date symlink: /home/bracualter-base/alter_ws/install/cartographer_slam/share/ament_index/resource_index/package_run_dependencies/cartographer_slam
+[4.592s] -- Up-to-date symlink: /home/bracualter-base/alter_ws/install/cartographer_slam/share/ament_index/resource_index/parent_prefix_path/cartographer_slam
+[4.592s] -- Up-to-date symlink: /home/bracualter-base/alter_ws/install/cartographer_slam/share/cartographer_slam/environment/ament_prefix_path.sh
+[4.592s] -- Up-to-date symlink: /home/bracualter-base/alter_ws/install/cartographer_slam/share/cartographer_slam/environment/ament_prefix_path.dsv
+[4.593s] -- Up-to-date symlink: /home/bracualter-base/alter_ws/install/cartographer_slam/share/cartographer_slam/environment/path.sh
+[4.593s] -- Up-to-date symlink: /home/bracualter-base/alter_ws/install/cartographer_slam/share/cartographer_slam/environment/path.dsv
+[4.593s] -- Up-to-date symlink: /home/bracualter-base/alter_ws/install/cartographer_slam/share/cartographer_slam/local_setup.bash
+[4.593s] -- Up-to-date symlink: /home/bracualter-base/alter_ws/install/cartographer_slam/share/cartographer_slam/local_setup.sh
+[4.593s] -- Up-to-date symlink: /home/bracualter-base/alter_ws/install/cartographer_slam/share/cartographer_slam/local_setup.zsh
+[4.594s] -- Up-to-date symlink: /home/bracualter-base/alter_ws/install/cartographer_slam/share/cartographer_slam/local_setup.dsv
+[4.594s] -- Symlinking: /home/bracualter-base/alter_ws/install/cartographer_slam/share/cartographer_slam/package.dsv
+[4.605s] -- Up-to-date symlink: /home/bracualter-base/alter_ws/install/cartographer_slam/share/ament_index/resource_index/packages/cartographer_slam
+[4.606s] -- Up-to-date symlink: /home/bracualter-base/alter_ws/install/cartographer_slam/share/cartographer_slam/cmake/cartographer_slamConfig.cmake
+[4.606s] -- Up-to-date symlink: /home/bracualter-base/alter_ws/install/cartographer_slam/share/cartographer_slam/cmake/cartographer_slamConfig-version.cmake
+[4.606s] -- Up-to-date symlink: /home/bracualter-base/alter_ws/install/cartographer_slam/share/cartographer_slam/package.xml
+[4.608s] Invoked command in '/home/bracualter-base/alter_ws/build/cartographer_slam' returned '0': AMENT_PREFIX_PATH=/home/bracualter-base/alter_ws/install/wit_ros2_imu:/home/bracualter-base/alter_ws/install/cartographer_slam:/home/bracualter-base/alter_ws/install/rplidar_ros:/home/bracualter-base/ros2_ws/install/cartographer_slam:/home/bracualter-base/ros2_ws/install/wit_ros2_imu:/home/bracualter-base/ros2_ws/install/rplidar_ros:/home/bracualter-base/ros2_ws/install/joy_control:/home/bracualter-base/ros2_ws/install/demo_description:/opt/ros/jazzy CMAKE_PREFIX_PATH=/home/bracualter-base/alter_ws/install/rplidar_ros:/home/bracualter-base/alter_ws/install/cartographer_slam:/home/bracualter-base/ros2_ws/install/cartographer_slam:/home/bracualter-base/ros2_ws/install/rplidar_ros:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/bracualter-base/alter_ws/install/wit_ros2_imu:/home/bracualter-base/ros2_ws/install/wit_ros2_imu:/home/bracualter-base/ros2_ws/install/joy_control:/home/bracualter-base/ros2_ws/install/demo_description:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/bracualter-base/alter_ws/build/cartographer_slam

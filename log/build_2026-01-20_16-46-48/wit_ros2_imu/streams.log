@@ -1,0 +1,21 @@
+[0.665s] Invoking command in '/home/bracualter-base/alter_ws/src/wit_ros2_imu': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/bracualter-base/alter_ws/build/wit_ros2_imu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bracualter-base/alter_ws/install/wit_ros2_imu/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/wit_ros2_imu build --build-base /home/bracualter-base/alter_ws/build/wit_ros2_imu/build install --record /home/bracualter-base/alter_ws/build/wit_ros2_imu/install.log --single-version-externally-managed install_data
+[0.858s] running egg_info
+[0.869s] writing ../../build/wit_ros2_imu/wit_ros2_imu.egg-info/PKG-INFO
+[0.869s] writing dependency_links to ../../build/wit_ros2_imu/wit_ros2_imu.egg-info/dependency_links.txt
+[0.870s] writing entry points to ../../build/wit_ros2_imu/wit_ros2_imu.egg-info/entry_points.txt
+[0.870s] writing requirements to ../../build/wit_ros2_imu/wit_ros2_imu.egg-info/requires.txt
+[0.870s] writing top-level names to ../../build/wit_ros2_imu/wit_ros2_imu.egg-info/top_level.txt
+[0.892s] reading manifest file '../../build/wit_ros2_imu/wit_ros2_imu.egg-info/SOURCES.txt'
+[0.893s] writing manifest file '../../build/wit_ros2_imu/wit_ros2_imu.egg-info/SOURCES.txt'
+[0.893s] running build
+[0.893s] running build_py
+[0.893s] running install
+[0.897s] running install_lib
+[0.909s] running install_data
+[0.909s] running install_egg_info
+[0.921s] removing '/home/bracualter-base/alter_ws/install/wit_ros2_imu/lib/python3.12/site-packages/wit_ros2_imu-0.0.0-py3.12.egg-info' (and everything under it)
+[0.921s] Copying ../../build/wit_ros2_imu/wit_ros2_imu.egg-info to /home/bracualter-base/alter_ws/install/wit_ros2_imu/lib/python3.12/site-packages/wit_ros2_imu-0.0.0-py3.12.egg-info
+[0.921s] running install_scripts
+[0.999s] Installing wit_ros2_imu script to /home/bracualter-base/alter_ws/install/wit_ros2_imu/lib/wit_ros2_imu
+[0.999s] writing list of installed files to '/home/bracualter-base/alter_ws/build/wit_ros2_imu/install.log'
+[1.021s] Invoked command in '/home/bracualter-base/alter_ws/src/wit_ros2_imu' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/bracualter-base/alter_ws/build/wit_ros2_imu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bracualter-base/alter_ws/install/wit_ros2_imu/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/wit_ros2_imu build --build-base /home/bracualter-base/alter_ws/build/wit_ros2_imu/build install --record /home/bracualter-base/alter_ws/build/wit_ros2_imu/install.log --single-version-externally-managed install_data

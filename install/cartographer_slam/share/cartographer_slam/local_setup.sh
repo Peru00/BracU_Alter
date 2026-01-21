@@ -1,0 +1,1 @@
+/home/bracualter-base/alter_ws/build/cartographer_slam/ament_cmake_environment_hooks/local_setup.sh

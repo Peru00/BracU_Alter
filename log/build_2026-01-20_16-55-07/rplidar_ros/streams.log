@@ -1,0 +1,71 @@
+[0.011s] Invoking command in '/home/bracualter-base/alter_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bracualter-base/alter_ws/install/wit_ros2_imu:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/bracualter-base/alter_ws/src/rplidar_ros -DCMAKE_INSTALL_PREFIX=/home/bracualter-base/alter_ws/install/rplidar_ros
+[0.024s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.193s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.197s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.215s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.221s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.229s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.239s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.285s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.286s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.346s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.395s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.443s] -- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+[0.544s] -- Configuring done (0.5s)
+[0.562s] -- Generating done (0.0s)
+[0.567s] -- Build files have been written to: /home/bracualter-base/alter_ws/build/rplidar_ros
+[0.575s] Invoked command in '/home/bracualter-base/alter_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bracualter-base/alter_ws/install/wit_ros2_imu:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/bracualter-base/alter_ws/src/rplidar_ros -DCMAKE_INSTALL_PREFIX=/home/bracualter-base/alter_ws/install/rplidar_ros
+[0.576s] Invoking command in '/home/bracualter-base/alter_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bracualter-base/alter_ws/install/wit_ros2_imu:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/bracualter-base/alter_ws/build/rplidar_ros -- -j16 -l16
+[0.669s] [  5%] Built target rplidar_client
+[0.685s] [ 52%] Built target rplidar_node
+[0.686s] [100%] Built target rplidar_composition
+[0.700s] Invoked command in '/home/bracualter-base/alter_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bracualter-base/alter_ws/install/wit_ros2_imu:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/bracualter-base/alter_ws/build/rplidar_ros -- -j16 -l16
+[0.713s] Invoking command in '/home/bracualter-base/alter_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bracualter-base/alter_ws/install/wit_ros2_imu:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/bracualter-base/alter_ws/build/rplidar_ros
+[0.720s] -- Install configuration: ""
+[0.721s] -- Execute custom install script
+[0.721s] -- Up-to-date symlink: /home/bracualter-base/alter_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a1_launch.py
+[0.721s] -- Up-to-date symlink: /home/bracualter-base/alter_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m12_launch.py
+[0.721s] -- Up-to-date symlink: /home/bracualter-base/alter_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m7_launch.py
+[0.722s] -- Up-to-date symlink: /home/bracualter-base/alter_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m8_launch.py
+[0.722s] -- Up-to-date symlink: /home/bracualter-base/alter_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a3_launch.py
+[0.722s] -- Up-to-date symlink: /home/bracualter-base/alter_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_c1_launch.py
+[0.722s] -- Up-to-date symlink: /home/bracualter-base/alter_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_launch.py
+[0.722s] -- Up-to-date symlink: /home/bracualter-base/alter_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_tcp_launch.py
+[0.722s] -- Up-to-date symlink: /home/bracualter-base/alter_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2_launch.py
+[0.722s] -- Up-to-date symlink: /home/bracualter-base/alter_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2e_launch.py
+[0.723s] -- Up-to-date symlink: /home/bracualter-base/alter_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s3_launch.py
+[0.723s] -- Up-to-date symlink: /home/bracualter-base/alter_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_t1_launch.py
+[0.723s] -- Up-to-date symlink: /home/bracualter-base/alter_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a1_launch.py
+[0.723s] -- Up-to-date symlink: /home/bracualter-base/alter_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m12_launch.py
+[0.723s] -- Up-to-date symlink: /home/bracualter-base/alter_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m7_launch.py
+[0.723s] -- Up-to-date symlink: /home/bracualter-base/alter_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m8_launch.py
+[0.723s] -- Up-to-date symlink: /home/bracualter-base/alter_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a3_launch.py
+[0.723s] -- Up-to-date symlink: /home/bracualter-base/alter_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_c1_launch.py
+[0.723s] -- Up-to-date symlink: /home/bracualter-base/alter_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_launch.py
+[0.724s] -- Up-to-date symlink: /home/bracualter-base/alter_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_tcp_launch.py
+[0.724s] -- Up-to-date symlink: /home/bracualter-base/alter_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2_launch.py
+[0.724s] -- Up-to-date symlink: /home/bracualter-base/alter_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2e_launch.py
+[0.724s] -- Up-to-date symlink: /home/bracualter-base/alter_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s3_launch.py
+[0.724s] -- Up-to-date symlink: /home/bracualter-base/alter_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_t1_launch.py
+[0.724s] -- Up-to-date symlink: /home/bracualter-base/alter_ws/install/rplidar_ros/share/rplidar_ros/rviz/rplidar_ros.rviz
+[0.724s] -- Up-to-date symlink: /home/bracualter-base/alter_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_node
+[0.724s] -- Up-to-date symlink: /home/bracualter-base/alter_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_composition
+[0.725s] -- Up-to-date symlink: /home/bracualter-base/alter_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_client
+[0.725s] -- Up-to-date symlink: /home/bracualter-base/alter_ws/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros
+[0.725s] -- Up-to-date symlink: /home/bracualter-base/alter_ws/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros
+[0.725s] -- Up-to-date symlink: /home/bracualter-base/alter_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh
+[0.725s] -- Up-to-date symlink: /home/bracualter-base/alter_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv
+[0.725s] -- Up-to-date symlink: /home/bracualter-base/alter_ws/install/rplidar_ros/share/rplidar_ros/environment/path.sh
+[0.725s] -- Up-to-date symlink: /home/bracualter-base/alter_ws/install/rplidar_ros/share/rplidar_ros/environment/path.dsv
+[0.725s] -- Up-to-date symlink: /home/bracualter-base/alter_ws/install/rplidar_ros/share/rplidar_ros/local_setup.bash
+[0.725s] -- Up-to-date symlink: /home/bracualter-base/alter_ws/install/rplidar_ros/share/rplidar_ros/local_setup.sh
+[0.725s] -- Up-to-date symlink: /home/bracualter-base/alter_ws/install/rplidar_ros/share/rplidar_ros/local_setup.zsh
+[0.726s] -- Up-to-date symlink: /home/bracualter-base/alter_ws/install/rplidar_ros/share/rplidar_ros/local_setup.dsv
+[0.726s] -- Symlinking: /home/bracualter-base/alter_ws/install/rplidar_ros/share/rplidar_ros/package.dsv
+[0.734s] -- Up-to-date symlink: /home/bracualter-base/alter_ws/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros
+[0.734s] -- Up-to-date symlink: /home/bracualter-base/alter_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.734s] -- Up-to-date symlink: /home/bracualter-base/alter_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.734s] -- Up-to-date symlink: /home/bracualter-base/alter_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake
+[0.734s] -- Up-to-date symlink: /home/bracualter-base/alter_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake
+[0.734s] -- Up-to-date symlink: /home/bracualter-base/alter_ws/install/rplidar_ros/share/rplidar_ros/package.xml
+[0.736s] Invoked command in '/home/bracualter-base/alter_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bracualter-base/alter_ws/install/wit_ros2_imu:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/bracualter-base/alter_ws/build/rplidar_ros

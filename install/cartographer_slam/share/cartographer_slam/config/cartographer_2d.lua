@@ -1,0 +1,1 @@
+/home/bracualter-base/alter_ws/src/cartographer_slam/config/cartographer_2d.lua

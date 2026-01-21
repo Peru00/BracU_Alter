@@ -1,0 +1,17 @@
+[0.671s] Invoking command in '/home/bracualter-base/alter_ws/build/wit_ros2_imu': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/bracualter-base/alter_ws/build/wit_ros2_imu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bracualter-base/alter_ws/install/wit_ros2_imu/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/bracualter-base/alter_ws/build/wit_ros2_imu/build --no-deps symlink_data
+[0.894s] running develop
+[1.004s] running egg_info
+[1.014s] writing wit_ros2_imu.egg-info/PKG-INFO
+[1.014s] writing dependency_links to wit_ros2_imu.egg-info/dependency_links.txt
+[1.014s] writing entry points to wit_ros2_imu.egg-info/entry_points.txt
+[1.014s] writing requirements to wit_ros2_imu.egg-info/requires.txt
+[1.014s] writing top-level names to wit_ros2_imu.egg-info/top_level.txt
+[1.037s] reading manifest file 'wit_ros2_imu.egg-info/SOURCES.txt'
+[1.037s] writing manifest file 'wit_ros2_imu.egg-info/SOURCES.txt'
+[1.049s] running build_ext
+[1.049s] Creating /home/bracualter-base/alter_ws/install/wit_ros2_imu/lib/python3.12/site-packages/wit-ros2-imu.egg-link (link to .)
+[1.049s] Installing wit_ros2_imu script to /home/bracualter-base/alter_ws/install/wit_ros2_imu/lib/wit_ros2_imu
+[1.049s] 
+[1.049s] Installed /home/bracualter-base/alter_ws/build/wit_ros2_imu
+[1.049s] running symlink_data
+[1.070s] Invoked command in '/home/bracualter-base/alter_ws/build/wit_ros2_imu' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/bracualter-base/alter_ws/build/wit_ros2_imu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bracualter-base/alter_ws/install/wit_ros2_imu/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/bracualter-base/alter_ws/build/wit_ros2_imu/build --no-deps symlink_data

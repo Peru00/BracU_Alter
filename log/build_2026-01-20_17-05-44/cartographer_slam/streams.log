@@ -1,0 +1,146 @@
+[0.007s] Invoking command in '/home/bracualter-base/alter_ws/build/cartographer_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bracualter-base/alter_ws/install/wit_ros2_imu:/home/bracualter-base/ros2_ws/install/wit_ros2_imu:/home/bracualter-base/ros2_ws/install/joy_control:/home/bracualter-base/ros2_ws/install/demo_description:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/bracualter-base/alter_ws/src/cartographer_slam -DCMAKE_INSTALL_PREFIX=/home/bracualter-base/alter_ws/install/cartographer_slam
+[0.053s] -- The C compiler identification is GNU 13.3.0
+[0.095s] -- The CXX compiler identification is GNU 13.3.0
+[0.108s] -- Detecting C compiler ABI info
+[0.182s] -- Detecting C compiler ABI info - done
+[0.188s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.188s] -- Detecting C compile features
+[0.189s] -- Detecting C compile features - done
+[0.197s] -- Detecting CXX compiler ABI info
+[0.280s] -- Detecting CXX compiler ABI info - done
+[0.286s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.286s] -- Detecting CXX compile features
+[0.287s] -- Detecting CXX compile features - done
+[0.289s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.408s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.510s] -- Found cartographer_ros: 2.0.9003 (/opt/ros/jazzy/share/cartographer_ros/cmake)
+[0.541s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.552s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.565s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.579s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.680s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.755s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.756s] -- Found Threads: TRUE  
+[1.288s] -- Found AMD headers in: /usr/include/suitesparse
+[1.290s] -- Found AMD library: /usr/lib/x86_64-linux-gnu/libamd.so
+[1.291s] -- Found CAMD headers in: /usr/include/suitesparse
+[1.292s] -- Found CAMD library: /usr/lib/x86_64-linux-gnu/libcamd.so
+[1.293s] -- Found CCOLAMD headers in: /usr/include/suitesparse
+[1.294s] -- Found CCOLAMD library: /usr/lib/x86_64-linux-gnu/libccolamd.so
+[1.294s] -- Found CHOLMOD headers in: /usr/include/suitesparse
+[1.295s] -- Found CHOLMOD library: /usr/lib/x86_64-linux-gnu/libcholmod.so
+[1.295s] -- Found COLAMD headers in: /usr/include/suitesparse
+[1.296s] -- Found COLAMD library: /usr/lib/x86_64-linux-gnu/libcolamd.so
+[1.296s] -- Found SPQR headers in: /usr/include/suitesparse
+[1.297s] -- Found SPQR library: /usr/lib/x86_64-linux-gnu/libspqr.so
+[1.298s] -- Found Config headers in: /usr/include/suitesparse
+[1.299s] -- Found Config library: /usr/lib/x86_64-linux-gnu/libsuitesparseconfig.so
+[1.301s] -- Found Intel Thread Building Blocks (TBB) library (2021.11 / ) include location: . Assuming SuiteSparseQR was compiled with TBB.
+[1.301s] -- Looking for shm_open in rt
+[1.375s] -- Looking for shm_open in rt - found
+[1.375s] -- Adding librt to SuiteSparse_config libraries (required on Linux & Unix [not OSX] if SuiteSparse is compiled with timing).
+[1.380s] -- Could NOT find METIS (missing: METIS_INCLUDE_DIR METIS_LIBRARY) 
+[1.424s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: iostreams 
+[1.592s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.596s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.680s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.692s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.710s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.874s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:45 (find_package):
+[1.874s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[1.874s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[1.874s]   cmake_policy command to set the policy and suppress this warning.
+[1.874s] 
+[1.875s]   CMake variable FLANN_ROOT is set to:
+[1.875s] 
+[1.875s]     /usr
+[1.875s] 
+[1.875s]   For compatibility, find_package is ignoring the variable, but code in a
+[1.875s]   .cmake module might still use it.
+[1.875s] Call Stack (most recent call first):
+[1.875s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:261 (find_package)
+[1.875s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:306 (find_flann)
+[1.875s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)
+[1.875s]   /opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.876s]   /opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+[1.876s]   /opt/ros/jazzy/share/cartographer_ros/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.876s]   /opt/ros/jazzy/share/cartographer_ros/cmake/cartographer_rosConfig.cmake:41 (include)
+[1.876s]   CMakeLists.txt:10 (find_package)
+[1.876s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.876s] [0m
+[1.876s] -- Found flann version 1.9.2
+[2.105s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[2.105s] -- Found OpenMP: TRUE (found version "4.5") found components: CXX 
+[3.104s] -- Checking for module 'libusb-1.0'
+[3.120s] --   Found libusb-1.0, version 1.0.27
+[3.156s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[3.157s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.211s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.213s] -- Could NOT find Pcap (missing: PCAP_LIBRARIES PCAP_INCLUDE_DIRS) 
+[3.225s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.3")  
+[3.250s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.43") 
+[3.624s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.631s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.981s] -- Found Qhull version 8.0.2
+[4.378s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.757s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[4.759s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[4.759s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[4.760s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[4.761s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[4.762s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[4.762s] -- Found PCL_2D: /usr/include/pcl-1.14  
+[4.762s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.14  
+[4.763s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[4.764s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[4.765s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[4.766s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[4.767s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[4.768s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[4.769s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[4.770s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[4.771s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[4.772s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[4.773s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[4.774s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[4.774s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.14  
+[4.775s] -- Found PCL_MODELER: /usr/include/pcl-1.14  
+[4.775s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.14  
+[4.776s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[4.777s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[4.931s] -- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+[4.947s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[5.027s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.028s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.028s] -- Configured 'flake8' exclude dirs and/or files: 
+[5.028s] -- Added test 'lint_cmake' to check CMake code style
+[5.029s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.030s] -- Added test 'xmllint' to check XML markup files
+[5.031s] -- Configuring done (5.0s)
+[5.040s] -- Generating done (0.0s)
+[5.042s] -- Build files have been written to: /home/bracualter-base/alter_ws/build/cartographer_slam
+[5.061s] Invoked command in '/home/bracualter-base/alter_ws/build/cartographer_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bracualter-base/alter_ws/install/wit_ros2_imu:/home/bracualter-base/ros2_ws/install/wit_ros2_imu:/home/bracualter-base/ros2_ws/install/joy_control:/home/bracualter-base/ros2_ws/install/demo_description:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/bracualter-base/alter_ws/src/cartographer_slam -DCMAKE_INSTALL_PREFIX=/home/bracualter-base/alter_ws/install/cartographer_slam
+[5.061s] Invoking command in '/home/bracualter-base/alter_ws/build/cartographer_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bracualter-base/alter_ws/install/wit_ros2_imu:/home/bracualter-base/ros2_ws/install/wit_ros2_imu:/home/bracualter-base/ros2_ws/install/joy_control:/home/bracualter-base/ros2_ws/install/demo_description:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/bracualter-base/alter_ws/build/cartographer_slam -- -j16 -l16
+[5.100s] Invoked command in '/home/bracualter-base/alter_ws/build/cartographer_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bracualter-base/alter_ws/install/wit_ros2_imu:/home/bracualter-base/ros2_ws/install/wit_ros2_imu:/home/bracualter-base/ros2_ws/install/joy_control:/home/bracualter-base/ros2_ws/install/demo_description:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/bracualter-base/alter_ws/build/cartographer_slam -- -j16 -l16
+[5.100s] Invoking command in '/home/bracualter-base/alter_ws/build/cartographer_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bracualter-base/alter_ws/install/wit_ros2_imu:/home/bracualter-base/ros2_ws/install/wit_ros2_imu:/home/bracualter-base/ros2_ws/install/joy_control:/home/bracualter-base/ros2_ws/install/demo_description:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/bracualter-base/alter_ws/build/cartographer_slam
+[5.106s] -- Install configuration: ""
+[5.107s] -- Installing: /home/bracualter-base/alter_ws/install/cartographer_slam/share/cartographer_slam/launch
+[5.107s] -- Installing: /home/bracualter-base/alter_ws/install/cartographer_slam/share/cartographer_slam/launch/cartographer_2d.launch.py
+[5.107s] -- Installing: /home/bracualter-base/alter_ws/install/cartographer_slam/share/cartographer_slam/config
+[5.107s] -- Installing: /home/bracualter-base/alter_ws/install/cartographer_slam/share/cartographer_slam/config/cartographer_2d.lua
+[5.107s] -- Installing: /home/bracualter-base/alter_ws/install/cartographer_slam/share/ament_index/resource_index/package_run_dependencies/cartographer_slam
+[5.107s] -- Installing: /home/bracualter-base/alter_ws/install/cartographer_slam/share/ament_index/resource_index/parent_prefix_path/cartographer_slam
+[5.107s] -- Installing: /home/bracualter-base/alter_ws/install/cartographer_slam/share/cartographer_slam/environment/ament_prefix_path.sh
+[5.107s] -- Installing: /home/bracualter-base/alter_ws/install/cartographer_slam/share/cartographer_slam/environment/ament_prefix_path.dsv
+[5.107s] -- Installing: /home/bracualter-base/alter_ws/install/cartographer_slam/share/cartographer_slam/environment/path.sh
+[5.107s] -- Installing: /home/bracualter-base/alter_ws/install/cartographer_slam/share/cartographer_slam/environment/path.dsv
+[5.108s] -- Installing: /home/bracualter-base/alter_ws/install/cartographer_slam/share/cartographer_slam/local_setup.bash
+[5.108s] -- Installing: /home/bracualter-base/alter_ws/install/cartographer_slam/share/cartographer_slam/local_setup.sh
+[5.108s] -- Installing: /home/bracualter-base/alter_ws/install/cartographer_slam/share/cartographer_slam/local_setup.zsh
+[5.108s] -- Installing: /home/bracualter-base/alter_ws/install/cartographer_slam/share/cartographer_slam/local_setup.dsv
+[5.108s] -- Installing: /home/bracualter-base/alter_ws/install/cartographer_slam/share/cartographer_slam/package.dsv
+[5.108s] -- Installing: /home/bracualter-base/alter_ws/install/cartographer_slam/share/ament_index/resource_index/packages/cartographer_slam
+[5.108s] -- Installing: /home/bracualter-base/alter_ws/install/cartographer_slam/share/cartographer_slam/cmake/cartographer_slamConfig.cmake
+[5.108s] -- Installing: /home/bracualter-base/alter_ws/install/cartographer_slam/share/cartographer_slam/cmake/cartographer_slamConfig-version.cmake
+[5.108s] -- Installing: /home/bracualter-base/alter_ws/install/cartographer_slam/share/cartographer_slam/package.xml
+[5.109s] Invoked command in '/home/bracualter-base/alter_ws/build/cartographer_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bracualter-base/alter_ws/install/wit_ros2_imu:/home/bracualter-base/ros2_ws/install/wit_ros2_imu:/home/bracualter-base/ros2_ws/install/joy_control:/home/bracualter-base/ros2_ws/install/demo_description:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/bracualter-base/alter_ws/build/cartographer_slam

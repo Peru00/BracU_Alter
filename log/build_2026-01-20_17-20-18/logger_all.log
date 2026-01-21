@@ -1,0 +1,265 @@
+[0.070s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.070s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x780b3d289a60>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x780b3ca984d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x780b3ca984d0>>, mixin_verb=('build',))
+[0.099s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.099s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.099s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.099s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.099s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.099s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.099s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/bracualter-base/alter_ws'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_slam) by extensions ['ignore', 'ignore_ament_install']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_slam) by extension 'ignore'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_slam) by extension 'ignore_ament_install'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_slam) by extensions ['colcon_pkg']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_slam) by extension 'colcon_pkg'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_slam) by extensions ['colcon_meta']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_slam) by extension 'colcon_meta'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_slam) by extensions ['ros']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_slam) by extension 'ros'
+[0.123s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cartographer_slam' with type 'ros.ament_cmake' and name 'cartographer_slam'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ignore'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ignore_ament_install'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['colcon_pkg']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'colcon_pkg'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['colcon_meta']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'colcon_meta'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['ros']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ros'
+[0.124s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rplidar_ros' with type 'ros.ament_cmake' and name 'rplidar_ros'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/wit_ros2_imu) by extensions ['ignore', 'ignore_ament_install']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/wit_ros2_imu) by extension 'ignore'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/wit_ros2_imu) by extension 'ignore_ament_install'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/wit_ros2_imu) by extensions ['colcon_pkg']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/wit_ros2_imu) by extension 'colcon_pkg'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/wit_ros2_imu) by extensions ['colcon_meta']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/wit_ros2_imu) by extension 'colcon_meta'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/wit_ros2_imu) by extensions ['ros']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/wit_ros2_imu) by extension 'ros'
+[0.125s] DEBUG:colcon.colcon_core.package_identification:Package 'src/wit_ros2_imu' with type 'ros.ament_python' and name 'wit_ros2_imu'
+[0.125s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.125s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.125s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.125s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.125s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.138s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.138s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.139s] WARNING:colcon.colcon_core.prefix_path.colcon:The path '/home/bracualter-base/ros2_ws/install' in the environment variable COLCON_PREFIX_PATH doesn't exist
+[0.139s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/bracualter-base/ros2_ws/install/cartographer_slam' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.139s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/bracualter-base/ros2_ws/install/wit_ros2_imu' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.139s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/bracualter-base/ros2_ws/install/rplidar_ros' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.139s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/bracualter-base/ros2_ws/install/joy_control' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.139s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/bracualter-base/ros2_ws/install/demo_description' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.139s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/bracualter-base/ros2_ws/install/cartographer_slam' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.139s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/bracualter-base/ros2_ws/install/rplidar_ros' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.139s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/bracualter-base/alter_ws/install
+[0.140s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 327 installed packages in /opt/ros/jazzy
+[0.142s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_args' from command line to 'None'
+[0.170s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target' from command line to 'None'
+[0.171s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.171s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.171s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.171s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.171s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.171s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.171s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.171s] DEBUG:colcon.colcon_core.verb:Building package 'rplidar_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bracualter-base/alter_ws/build/rplidar_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bracualter-base/alter_ws/install/rplidar_ros', 'merge_install': False, 'path': '/home/bracualter-base/alter_ws/src/rplidar_ros', 'symlink_install': True, 'test_result_base': None}
+[0.171s] Level 5:colcon.colcon_core.verb:set package 'wit_ros2_imu' build argument 'cmake_args' from command line to 'None'
+[0.171s] Level 5:colcon.colcon_core.verb:set package 'wit_ros2_imu' build argument 'cmake_target' from command line to 'None'
+[0.171s] Level 5:colcon.colcon_core.verb:set package 'wit_ros2_imu' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.171s] Level 5:colcon.colcon_core.verb:set package 'wit_ros2_imu' build argument 'cmake_clean_cache' from command line to 'False'
+[0.171s] Level 5:colcon.colcon_core.verb:set package 'wit_ros2_imu' build argument 'cmake_clean_first' from command line to 'False'
+[0.171s] Level 5:colcon.colcon_core.verb:set package 'wit_ros2_imu' build argument 'cmake_force_configure' from command line to 'False'
+[0.171s] Level 5:colcon.colcon_core.verb:set package 'wit_ros2_imu' build argument 'ament_cmake_args' from command line to 'None'
+[0.171s] Level 5:colcon.colcon_core.verb:set package 'wit_ros2_imu' build argument 'catkin_cmake_args' from command line to 'None'
+[0.171s] Level 5:colcon.colcon_core.verb:set package 'wit_ros2_imu' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.171s] DEBUG:colcon.colcon_core.verb:Building package 'wit_ros2_imu' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bracualter-base/alter_ws/build/wit_ros2_imu', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bracualter-base/alter_ws/install/wit_ros2_imu', 'merge_install': False, 'path': '/home/bracualter-base/alter_ws/src/wit_ros2_imu', 'symlink_install': True, 'test_result_base': None}
+[0.171s] Level 5:colcon.colcon_core.verb:set package 'cartographer_slam' build argument 'cmake_args' from command line to 'None'
+[0.171s] Level 5:colcon.colcon_core.verb:set package 'cartographer_slam' build argument 'cmake_target' from command line to 'None'
+[0.171s] Level 5:colcon.colcon_core.verb:set package 'cartographer_slam' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.171s] Level 5:colcon.colcon_core.verb:set package 'cartographer_slam' build argument 'cmake_clean_cache' from command line to 'False'
+[0.171s] Level 5:colcon.colcon_core.verb:set package 'cartographer_slam' build argument 'cmake_clean_first' from command line to 'False'
+[0.171s] Level 5:colcon.colcon_core.verb:set package 'cartographer_slam' build argument 'cmake_force_configure' from command line to 'False'
+[0.171s] Level 5:colcon.colcon_core.verb:set package 'cartographer_slam' build argument 'ament_cmake_args' from command line to 'None'
+[0.171s] Level 5:colcon.colcon_core.verb:set package 'cartographer_slam' build argument 'catkin_cmake_args' from command line to 'None'
+[0.171s] Level 5:colcon.colcon_core.verb:set package 'cartographer_slam' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.171s] DEBUG:colcon.colcon_core.verb:Building package 'cartographer_slam' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bracualter-base/alter_ws/build/cartographer_slam', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bracualter-base/alter_ws/install/cartographer_slam', 'merge_install': False, 'path': '/home/bracualter-base/alter_ws/src/cartographer_slam', 'symlink_install': True, 'test_result_base': None}
+[0.171s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.172s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.173s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bracualter-base/alter_ws/src/rplidar_ros' with build type 'ament_cmake'
+[0.173s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bracualter-base/alter_ws/src/rplidar_ros'
+[0.174s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.174s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.174s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.177s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/bracualter-base/alter_ws/src/wit_ros2_imu' with build type 'ament_python'
+[0.177s] Level 1:colcon.colcon_core.shell:create_environment_hook('wit_ros2_imu', 'ament_prefix_path')
+[0.177s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bracualter-base/alter_ws/install/wit_ros2_imu/share/wit_ros2_imu/hook/ament_prefix_path.ps1'
+[0.178s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bracualter-base/alter_ws/install/wit_ros2_imu/share/wit_ros2_imu/hook/ament_prefix_path.dsv'
+[0.179s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bracualter-base/alter_ws/install/wit_ros2_imu/share/wit_ros2_imu/hook/ament_prefix_path.sh'
+[0.179s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.179s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.186s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bracualter-base/alter_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bracualter-base/alter_ws/install/wit_ros2_imu:/home/bracualter-base/ros2_ws/install/wit_ros2_imu:/home/bracualter-base/ros2_ws/install/joy_control:/home/bracualter-base/ros2_ws/install/demo_description:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/bracualter-base/alter_ws/build/rplidar_ros -- -j16 -l16
+[0.335s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/bracualter-base/alter_ws/src/wit_ros2_imu'
+[0.335s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.335s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.338s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bracualter-base/alter_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bracualter-base/alter_ws/install/wit_ros2_imu:/home/bracualter-base/ros2_ws/install/wit_ros2_imu:/home/bracualter-base/ros2_ws/install/joy_control:/home/bracualter-base/ros2_ws/install/demo_description:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/bracualter-base/alter_ws/build/rplidar_ros -- -j16 -l16
+[0.346s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bracualter-base/alter_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bracualter-base/alter_ws/install/wit_ros2_imu:/home/bracualter-base/ros2_ws/install/wit_ros2_imu:/home/bracualter-base/ros2_ws/install/joy_control:/home/bracualter-base/ros2_ws/install/demo_description:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/bracualter-base/alter_ws/build/rplidar_ros
+[0.365s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rplidar_ros)
+[0.366s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bracualter-base/alter_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bracualter-base/alter_ws/install/wit_ros2_imu:/home/bracualter-base/ros2_ws/install/wit_ros2_imu:/home/bracualter-base/ros2_ws/install/joy_control:/home/bracualter-base/ros2_ws/install/demo_description:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/bracualter-base/alter_ws/build/rplidar_ros
+[0.367s] Level 1:colcon.colcon_core.environment:checking '/home/bracualter-base/alter_ws/install/rplidar_ros' for CMake module files
+[0.368s] Level 1:colcon.colcon_core.environment:checking '/home/bracualter-base/alter_ws/install/rplidar_ros' for CMake config files
+[0.368s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'cmake_prefix_path')
+[0.368s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bracualter-base/alter_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.ps1'
+[0.368s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bracualter-base/alter_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.dsv'
+[0.368s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bracualter-base/alter_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.sh'
+[0.369s] Level 1:colcon.colcon_core.environment:checking '/home/bracualter-base/alter_ws/install/rplidar_ros/lib'
+[0.369s] Level 1:colcon.colcon_core.environment:checking '/home/bracualter-base/alter_ws/install/rplidar_ros/bin'
+[0.369s] Level 1:colcon.colcon_core.environment:checking '/home/bracualter-base/alter_ws/install/rplidar_ros/lib/pkgconfig/rplidar_ros.pc'
+[0.369s] Level 1:colcon.colcon_core.environment:checking '/home/bracualter-base/alter_ws/install/rplidar_ros/lib/python3.12/site-packages'
+[0.369s] Level 1:colcon.colcon_core.environment:checking '/home/bracualter-base/alter_ws/install/rplidar_ros/bin'
+[0.370s] INFO:colcon.colcon_core.shell:Creating package script '/home/bracualter-base/alter_ws/install/rplidar_ros/share/rplidar_ros/package.ps1'
+[0.370s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bracualter-base/alter_ws/install/rplidar_ros/share/rplidar_ros/package.dsv'
+[0.370s] INFO:colcon.colcon_core.shell:Creating package script '/home/bracualter-base/alter_ws/install/rplidar_ros/share/rplidar_ros/package.sh'
+[0.371s] INFO:colcon.colcon_core.shell:Creating package script '/home/bracualter-base/alter_ws/install/rplidar_ros/share/rplidar_ros/package.bash'
+[0.371s] INFO:colcon.colcon_core.shell:Creating package script '/home/bracualter-base/alter_ws/install/rplidar_ros/share/rplidar_ros/package.zsh'
+[0.372s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bracualter-base/alter_ws/install/rplidar_ros/share/colcon-core/packages/rplidar_ros)
+[0.372s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rplidar_ros)
+[0.372s] Level 1:colcon.colcon_core.environment:checking '/home/bracualter-base/alter_ws/install/rplidar_ros' for CMake module files
+[0.373s] Level 1:colcon.colcon_core.environment:checking '/home/bracualter-base/alter_ws/install/rplidar_ros' for CMake config files
+[0.373s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'cmake_prefix_path')
+[0.373s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bracualter-base/alter_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.ps1'
+[0.373s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bracualter-base/alter_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.dsv'
+[0.373s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bracualter-base/alter_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.sh'
+[0.374s] Level 1:colcon.colcon_core.environment:checking '/home/bracualter-base/alter_ws/install/rplidar_ros/lib'
+[0.374s] Level 1:colcon.colcon_core.environment:checking '/home/bracualter-base/alter_ws/install/rplidar_ros/bin'
+[0.374s] Level 1:colcon.colcon_core.environment:checking '/home/bracualter-base/alter_ws/install/rplidar_ros/lib/pkgconfig/rplidar_ros.pc'
+[0.374s] Level 1:colcon.colcon_core.environment:checking '/home/bracualter-base/alter_ws/install/rplidar_ros/lib/python3.12/site-packages'
+[0.374s] Level 1:colcon.colcon_core.environment:checking '/home/bracualter-base/alter_ws/install/rplidar_ros/bin'
+[0.374s] INFO:colcon.colcon_core.shell:Creating package script '/home/bracualter-base/alter_ws/install/rplidar_ros/share/rplidar_ros/package.ps1'
+[0.375s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bracualter-base/alter_ws/install/rplidar_ros/share/rplidar_ros/package.dsv'
+[0.375s] INFO:colcon.colcon_core.shell:Creating package script '/home/bracualter-base/alter_ws/install/rplidar_ros/share/rplidar_ros/package.sh'
+[0.375s] INFO:colcon.colcon_core.shell:Creating package script '/home/bracualter-base/alter_ws/install/rplidar_ros/share/rplidar_ros/package.bash'
+[0.375s] INFO:colcon.colcon_core.shell:Creating package script '/home/bracualter-base/alter_ws/install/rplidar_ros/share/rplidar_ros/package.zsh'
+[0.376s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bracualter-base/alter_ws/install/rplidar_ros/share/colcon-core/packages/rplidar_ros)
+[0.754s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bracualter-base/alter_ws/build/wit_ros2_imu': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/bracualter-base/alter_ws/build/wit_ros2_imu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bracualter-base/alter_ws/install/wit_ros2_imu/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/bracualter-base/alter_ws/build/wit_ros2_imu/build --no-deps symlink_data
+[1.167s] Level 1:colcon.colcon_core.shell:create_environment_hook('wit_ros2_imu', 'pythonpath_develop')
+[1.167s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bracualter-base/alter_ws/build/wit_ros2_imu/share/wit_ros2_imu/hook/pythonpath_develop.ps1'
+[1.168s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bracualter-base/alter_ws/build/wit_ros2_imu' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/bracualter-base/alter_ws/build/wit_ros2_imu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bracualter-base/alter_ws/install/wit_ros2_imu/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/bracualter-base/alter_ws/build/wit_ros2_imu/build --no-deps symlink_data
+[1.168s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bracualter-base/alter_ws/build/wit_ros2_imu/share/wit_ros2_imu/hook/pythonpath_develop.dsv'
+[1.168s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bracualter-base/alter_ws/build/wit_ros2_imu/share/wit_ros2_imu/hook/pythonpath_develop.sh'
+[1.168s] Level 1:colcon.colcon_core.environment:checking '/home/bracualter-base/alter_ws/install/wit_ros2_imu' for CMake module files
+[1.169s] Level 1:colcon.colcon_core.environment:checking '/home/bracualter-base/alter_ws/install/wit_ros2_imu' for CMake config files
+[1.169s] Level 1:colcon.colcon_core.environment:checking '/home/bracualter-base/alter_ws/install/wit_ros2_imu/lib'
+[1.169s] Level 1:colcon.colcon_core.environment:checking '/home/bracualter-base/alter_ws/install/wit_ros2_imu/bin'
+[1.169s] Level 1:colcon.colcon_core.environment:checking '/home/bracualter-base/alter_ws/install/wit_ros2_imu/lib/pkgconfig/wit_ros2_imu.pc'
+[1.169s] Level 1:colcon.colcon_core.environment:checking '/home/bracualter-base/alter_ws/install/wit_ros2_imu/lib/python3.12/site-packages'
+[1.169s] Level 1:colcon.colcon_core.shell:create_environment_hook('wit_ros2_imu', 'pythonpath')
+[1.169s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bracualter-base/alter_ws/install/wit_ros2_imu/share/wit_ros2_imu/hook/pythonpath.ps1'
+[1.170s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bracualter-base/alter_ws/install/wit_ros2_imu/share/wit_ros2_imu/hook/pythonpath.dsv'
+[1.170s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bracualter-base/alter_ws/install/wit_ros2_imu/share/wit_ros2_imu/hook/pythonpath.sh'
+[1.170s] Level 1:colcon.colcon_core.environment:checking '/home/bracualter-base/alter_ws/install/wit_ros2_imu/bin'
+[1.170s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wit_ros2_imu)
+[1.170s] INFO:colcon.colcon_core.shell:Creating package script '/home/bracualter-base/alter_ws/install/wit_ros2_imu/share/wit_ros2_imu/package.ps1'
+[1.171s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bracualter-base/alter_ws/install/wit_ros2_imu/share/wit_ros2_imu/package.dsv'
+[1.171s] INFO:colcon.colcon_core.shell:Creating package script '/home/bracualter-base/alter_ws/install/wit_ros2_imu/share/wit_ros2_imu/package.sh'
+[1.171s] INFO:colcon.colcon_core.shell:Creating package script '/home/bracualter-base/alter_ws/install/wit_ros2_imu/share/wit_ros2_imu/package.bash'
+[1.171s] INFO:colcon.colcon_core.shell:Creating package script '/home/bracualter-base/alter_ws/install/wit_ros2_imu/share/wit_ros2_imu/package.zsh'
+[1.171s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bracualter-base/alter_ws/install/wit_ros2_imu/share/colcon-core/packages/wit_ros2_imu)
+[1.172s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bracualter-base/alter_ws/src/cartographer_slam' with build type 'ament_cmake'
+[1.172s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bracualter-base/alter_ws/src/cartographer_slam'
+[1.172s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.172s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.181s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bracualter-base/alter_ws/build/cartographer_slam': AMENT_PREFIX_PATH=/home/bracualter-base/alter_ws/install/wit_ros2_imu:/home/bracualter-base/alter_ws/install/cartographer_slam:/home/bracualter-base/alter_ws/install/rplidar_ros:/home/bracualter-base/ros2_ws/install/cartographer_slam:/home/bracualter-base/ros2_ws/install/wit_ros2_imu:/home/bracualter-base/ros2_ws/install/rplidar_ros:/home/bracualter-base/ros2_ws/install/joy_control:/home/bracualter-base/ros2_ws/install/demo_description:/opt/ros/jazzy CMAKE_PREFIX_PATH=/home/bracualter-base/alter_ws/install/rplidar_ros:/home/bracualter-base/alter_ws/install/cartographer_slam:/home/bracualter-base/ros2_ws/install/cartographer_slam:/home/bracualter-base/ros2_ws/install/rplidar_ros:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/bracualter-base/alter_ws/install/wit_ros2_imu:/home/bracualter-base/ros2_ws/install/wit_ros2_imu:/home/bracualter-base/ros2_ws/install/joy_control:/home/bracualter-base/ros2_ws/install/demo_description:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/bracualter-base/alter_ws/build/wit_ros2_imu:${PYTHONPATH} /usr/bin/cmake --build /home/bracualter-base/alter_ws/build/cartographer_slam -- -j16 -l16
+[1.216s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bracualter-base/alter_ws/build/cartographer_slam' returned '0': AMENT_PREFIX_PATH=/home/bracualter-base/alter_ws/install/wit_ros2_imu:/home/bracualter-base/alter_ws/install/cartographer_slam:/home/bracualter-base/alter_ws/install/rplidar_ros:/home/bracualter-base/ros2_ws/install/cartographer_slam:/home/bracualter-base/ros2_ws/install/wit_ros2_imu:/home/bracualter-base/ros2_ws/install/rplidar_ros:/home/bracualter-base/ros2_ws/install/joy_control:/home/bracualter-base/ros2_ws/install/demo_description:/opt/ros/jazzy CMAKE_PREFIX_PATH=/home/bracualter-base/alter_ws/install/rplidar_ros:/home/bracualter-base/alter_ws/install/cartographer_slam:/home/bracualter-base/ros2_ws/install/cartographer_slam:/home/bracualter-base/ros2_ws/install/rplidar_ros:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/bracualter-base/alter_ws/install/wit_ros2_imu:/home/bracualter-base/ros2_ws/install/wit_ros2_imu:/home/bracualter-base/ros2_ws/install/joy_control:/home/bracualter-base/ros2_ws/install/demo_description:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/bracualter-base/alter_ws/build/wit_ros2_imu:${PYTHONPATH} /usr/bin/cmake --build /home/bracualter-base/alter_ws/build/cartographer_slam -- -j16 -l16
+[1.217s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bracualter-base/alter_ws/build/cartographer_slam': AMENT_PREFIX_PATH=/home/bracualter-base/alter_ws/install/wit_ros2_imu:/home/bracualter-base/alter_ws/install/cartographer_slam:/home/bracualter-base/alter_ws/install/rplidar_ros:/home/bracualter-base/ros2_ws/install/cartographer_slam:/home/bracualter-base/ros2_ws/install/wit_ros2_imu:/home/bracualter-base/ros2_ws/install/rplidar_ros:/home/bracualter-base/ros2_ws/install/joy_control:/home/bracualter-base/ros2_ws/install/demo_description:/opt/ros/jazzy CMAKE_PREFIX_PATH=/home/bracualter-base/alter_ws/install/rplidar_ros:/home/bracualter-base/alter_ws/install/cartographer_slam:/home/bracualter-base/ros2_ws/install/cartographer_slam:/home/bracualter-base/ros2_ws/install/rplidar_ros:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/bracualter-base/alter_ws/install/wit_ros2_imu:/home/bracualter-base/ros2_ws/install/wit_ros2_imu:/home/bracualter-base/ros2_ws/install/joy_control:/home/bracualter-base/ros2_ws/install/demo_description:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/bracualter-base/alter_ws/build/wit_ros2_imu:${PYTHONPATH} /usr/bin/cmake --install /home/bracualter-base/alter_ws/build/cartographer_slam
+[1.231s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cartographer_slam)
+[1.232s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bracualter-base/alter_ws/build/cartographer_slam' returned '0': AMENT_PREFIX_PATH=/home/bracualter-base/alter_ws/install/wit_ros2_imu:/home/bracualter-base/alter_ws/install/cartographer_slam:/home/bracualter-base/alter_ws/install/rplidar_ros:/home/bracualter-base/ros2_ws/install/cartographer_slam:/home/bracualter-base/ros2_ws/install/wit_ros2_imu:/home/bracualter-base/ros2_ws/install/rplidar_ros:/home/bracualter-base/ros2_ws/install/joy_control:/home/bracualter-base/ros2_ws/install/demo_description:/opt/ros/jazzy CMAKE_PREFIX_PATH=/home/bracualter-base/alter_ws/install/rplidar_ros:/home/bracualter-base/alter_ws/install/cartographer_slam:/home/bracualter-base/ros2_ws/install/cartographer_slam:/home/bracualter-base/ros2_ws/install/rplidar_ros:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/bracualter-base/alter_ws/install/wit_ros2_imu:/home/bracualter-base/ros2_ws/install/wit_ros2_imu:/home/bracualter-base/ros2_ws/install/joy_control:/home/bracualter-base/ros2_ws/install/demo_description:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/bracualter-base/alter_ws/build/wit_ros2_imu:${PYTHONPATH} /usr/bin/cmake --install /home/bracualter-base/alter_ws/build/cartographer_slam
+[1.232s] Level 1:colcon.colcon_core.environment:checking '/home/bracualter-base/alter_ws/install/cartographer_slam' for CMake module files
+[1.232s] Level 1:colcon.colcon_core.environment:checking '/home/bracualter-base/alter_ws/install/cartographer_slam' for CMake config files
+[1.232s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer_slam', 'cmake_prefix_path')
+[1.232s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bracualter-base/alter_ws/install/cartographer_slam/share/cartographer_slam/hook/cmake_prefix_path.ps1'
+[1.233s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bracualter-base/alter_ws/install/cartographer_slam/share/cartographer_slam/hook/cmake_prefix_path.dsv'
+[1.233s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bracualter-base/alter_ws/install/cartographer_slam/share/cartographer_slam/hook/cmake_prefix_path.sh'
+[1.233s] Level 1:colcon.colcon_core.environment:checking '/home/bracualter-base/alter_ws/install/cartographer_slam/bin'
+[1.233s] Level 1:colcon.colcon_core.environment:checking '/home/bracualter-base/alter_ws/install/cartographer_slam/lib/pkgconfig/cartographer_slam.pc'
+[1.234s] Level 1:colcon.colcon_core.environment:checking '/home/bracualter-base/alter_ws/install/cartographer_slam/lib/python3.12/site-packages'
+[1.234s] Level 1:colcon.colcon_core.environment:checking '/home/bracualter-base/alter_ws/install/cartographer_slam/bin'
+[1.234s] INFO:colcon.colcon_core.shell:Creating package script '/home/bracualter-base/alter_ws/install/cartographer_slam/share/cartographer_slam/package.ps1'
+[1.234s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bracualter-base/alter_ws/install/cartographer_slam/share/cartographer_slam/package.dsv'
+[1.234s] INFO:colcon.colcon_core.shell:Creating package script '/home/bracualter-base/alter_ws/install/cartographer_slam/share/cartographer_slam/package.sh'
+[1.235s] INFO:colcon.colcon_core.shell:Creating package script '/home/bracualter-base/alter_ws/install/cartographer_slam/share/cartographer_slam/package.bash'
+[1.235s] INFO:colcon.colcon_core.shell:Creating package script '/home/bracualter-base/alter_ws/install/cartographer_slam/share/cartographer_slam/package.zsh'
+[1.235s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bracualter-base/alter_ws/install/cartographer_slam/share/colcon-core/packages/cartographer_slam)
+[1.235s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cartographer_slam)
+[1.235s] Level 1:colcon.colcon_core.environment:checking '/home/bracualter-base/alter_ws/install/cartographer_slam' for CMake module files
+[1.236s] Level 1:colcon.colcon_core.environment:checking '/home/bracualter-base/alter_ws/install/cartographer_slam' for CMake config files
+[1.236s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer_slam', 'cmake_prefix_path')
+[1.236s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bracualter-base/alter_ws/install/cartographer_slam/share/cartographer_slam/hook/cmake_prefix_path.ps1'
+[1.236s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bracualter-base/alter_ws/install/cartographer_slam/share/cartographer_slam/hook/cmake_prefix_path.dsv'
+[1.236s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bracualter-base/alter_ws/install/cartographer_slam/share/cartographer_slam/hook/cmake_prefix_path.sh'
+[1.237s] Level 1:colcon.colcon_core.environment:checking '/home/bracualter-base/alter_ws/install/cartographer_slam/bin'
+[1.237s] Level 1:colcon.colcon_core.environment:checking '/home/bracualter-base/alter_ws/install/cartographer_slam/lib/pkgconfig/cartographer_slam.pc'
+[1.237s] Level 1:colcon.colcon_core.environment:checking '/home/bracualter-base/alter_ws/install/cartographer_slam/lib/python3.12/site-packages'
+[1.237s] Level 1:colcon.colcon_core.environment:checking '/home/bracualter-base/alter_ws/install/cartographer_slam/bin'
+[1.237s] INFO:colcon.colcon_core.shell:Creating package script '/home/bracualter-base/alter_ws/install/cartographer_slam/share/cartographer_slam/package.ps1'
+[1.237s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bracualter-base/alter_ws/install/cartographer_slam/share/cartographer_slam/package.dsv'
+[1.238s] INFO:colcon.colcon_core.shell:Creating package script '/home/bracualter-base/alter_ws/install/cartographer_slam/share/cartographer_slam/package.sh'
+[1.238s] INFO:colcon.colcon_core.shell:Creating package script '/home/bracualter-base/alter_ws/install/cartographer_slam/share/cartographer_slam/package.bash'
+[1.238s] INFO:colcon.colcon_core.shell:Creating package script '/home/bracualter-base/alter_ws/install/cartographer_slam/share/cartographer_slam/package.zsh'
+[1.238s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bracualter-base/alter_ws/install/cartographer_slam/share/colcon-core/packages/cartographer_slam)
+[1.238s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.239s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.239s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.239s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.243s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.244s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.244s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.254s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.255s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bracualter-base/alter_ws/install/local_setup.ps1'
+[1.256s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/bracualter-base/alter_ws/install/_local_setup_util_ps1.py'
+[1.256s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bracualter-base/alter_ws/install/setup.ps1'
+[1.257s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bracualter-base/alter_ws/install/local_setup.sh'
+[1.257s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/bracualter-base/alter_ws/install/_local_setup_util_sh.py'
+[1.258s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bracualter-base/alter_ws/install/setup.sh'
+[1.258s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bracualter-base/alter_ws/install/local_setup.bash'
+[1.259s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bracualter-base/alter_ws/install/setup.bash'
+[1.259s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bracualter-base/alter_ws/install/local_setup.zsh'
+[1.259s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bracualter-base/alter_ws/install/setup.zsh'

@@ -1,0 +1,52 @@
+[0.000000] (-) TimerEvent: {}
+[0.000730] (wit_ros2_imu) JobQueued: {'identifier': 'wit_ros2_imu', 'dependencies': OrderedDict()}
+[0.000798] (wit_ros2_imu) JobStarted: {'identifier': 'wit_ros2_imu'}
+[0.099565] (-) TimerEvent: {}
+[0.199946] (-) TimerEvent: {}
+[0.300199] (-) TimerEvent: {}
+[0.400540] (-) TimerEvent: {}
+[0.500873] (-) TimerEvent: {}
+[0.570224] (wit_ros2_imu) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/wit_ros2_imu', 'build', '--build-base', '/home/bracualter-base/alter_ws/build/wit_ros2_imu/build', 'install', '--record', '/home/bracualter-base/alter_ws/build/wit_ros2_imu/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/bracualter-base/alter_ws/src/wit_ros2_imu', 'env': {'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/bracualter-base', 'OLDPWD': '/home/bracualter-base/alter_ws', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/bracualter-base/alter_ws/build/wit_ros2_imu', 'PYTHONPATH': '/home/bracualter-base/alter_ws/build/wit_ros2_imu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bracualter-base/alter_ws/install/wit_ros2_imu/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[0.601078] (-) TimerEvent: {}
+[0.701297] (-) TimerEvent: {}
+[0.741661] (wit_ros2_imu) StdoutLine: {'line': b'running egg_info\n'}
+[0.741846] (wit_ros2_imu) StdoutLine: {'line': b'creating ../../build/wit_ros2_imu/wit_ros2_imu.egg-info\n'}
+[0.753047] (wit_ros2_imu) StdoutLine: {'line': b'writing ../../build/wit_ros2_imu/wit_ros2_imu.egg-info/PKG-INFO\n'}
+[0.753273] (wit_ros2_imu) StdoutLine: {'line': b'writing dependency_links to ../../build/wit_ros2_imu/wit_ros2_imu.egg-info/dependency_links.txt\n'}
+[0.753369] (wit_ros2_imu) StdoutLine: {'line': b'writing entry points to ../../build/wit_ros2_imu/wit_ros2_imu.egg-info/entry_points.txt\n'}
+[0.753412] (wit_ros2_imu) StdoutLine: {'line': b'writing requirements to ../../build/wit_ros2_imu/wit_ros2_imu.egg-info/requires.txt\n'}
+[0.753453] (wit_ros2_imu) StdoutLine: {'line': b'writing top-level names to ../../build/wit_ros2_imu/wit_ros2_imu.egg-info/top_level.txt\n'}
+[0.753615] (wit_ros2_imu) StdoutLine: {'line': b"writing manifest file '../../build/wit_ros2_imu/wit_ros2_imu.egg-info/SOURCES.txt'\n"}
+[0.775945] (wit_ros2_imu) StdoutLine: {'line': b"reading manifest file '../../build/wit_ros2_imu/wit_ros2_imu.egg-info/SOURCES.txt'\n"}
+[0.776281] (wit_ros2_imu) StdoutLine: {'line': b"writing manifest file '../../build/wit_ros2_imu/wit_ros2_imu.egg-info/SOURCES.txt'\n"}
+[0.776366] (wit_ros2_imu) StdoutLine: {'line': b'running build\n'}
+[0.776407] (wit_ros2_imu) StdoutLine: {'line': b'running build_py\n'}
+[0.776581] (wit_ros2_imu) StdoutLine: {'line': b'creating /home/bracualter-base/alter_ws/build/wit_ros2_imu/build\n'}
+[0.776637] (wit_ros2_imu) StdoutLine: {'line': b'creating /home/bracualter-base/alter_ws/build/wit_ros2_imu/build/lib\n'}
+[0.776679] (wit_ros2_imu) StdoutLine: {'line': b'creating /home/bracualter-base/alter_ws/build/wit_ros2_imu/build/lib/wit_ros2_imu\n'}
+[0.776717] (wit_ros2_imu) StdoutLine: {'line': b'copying wit_ros2_imu/wit_ros2_imu.py -> /home/bracualter-base/alter_ws/build/wit_ros2_imu/build/lib/wit_ros2_imu\n'}
+[0.776894] (wit_ros2_imu) StdoutLine: {'line': b'copying wit_ros2_imu/__init__.py -> /home/bracualter-base/alter_ws/build/wit_ros2_imu/build/lib/wit_ros2_imu\n'}
+[0.776995] (wit_ros2_imu) StdoutLine: {'line': b'running install\n'}
+[0.781026] (wit_ros2_imu) StdoutLine: {'line': b'running install_lib\n'}
+[0.793193] (wit_ros2_imu) StdoutLine: {'line': b'creating /home/bracualter-base/alter_ws/install/wit_ros2_imu/lib/python3.12/site-packages/wit_ros2_imu\n'}
+[0.793302] (wit_ros2_imu) StdoutLine: {'line': b'copying /home/bracualter-base/alter_ws/build/wit_ros2_imu/build/lib/wit_ros2_imu/wit_ros2_imu.py -> /home/bracualter-base/alter_ws/install/wit_ros2_imu/lib/python3.12/site-packages/wit_ros2_imu\n'}
+[0.793345] (wit_ros2_imu) StdoutLine: {'line': b'copying /home/bracualter-base/alter_ws/build/wit_ros2_imu/build/lib/wit_ros2_imu/__init__.py -> /home/bracualter-base/alter_ws/install/wit_ros2_imu/lib/python3.12/site-packages/wit_ros2_imu\n'}
+[0.793502] (wit_ros2_imu) StdoutLine: {'line': b'byte-compiling /home/bracualter-base/alter_ws/install/wit_ros2_imu/lib/python3.12/site-packages/wit_ros2_imu/wit_ros2_imu.py to wit_ros2_imu.cpython-312.pyc\n'}
+[0.795186] (wit_ros2_imu) StdoutLine: {'line': b'byte-compiling /home/bracualter-base/alter_ws/install/wit_ros2_imu/lib/python3.12/site-packages/wit_ros2_imu/__init__.py to __init__.cpython-312.pyc\n'}
+[0.795371] (wit_ros2_imu) StdoutLine: {'line': b'running install_data\n'}
+[0.795457] (wit_ros2_imu) StdoutLine: {'line': b'creating /home/bracualter-base/alter_ws/install/wit_ros2_imu/share/ament_index\n'}
+[0.795503] (wit_ros2_imu) StdoutLine: {'line': b'creating /home/bracualter-base/alter_ws/install/wit_ros2_imu/share/ament_index/resource_index\n'}
+[0.795542] (wit_ros2_imu) StdoutLine: {'line': b'creating /home/bracualter-base/alter_ws/install/wit_ros2_imu/share/ament_index/resource_index/packages\n'}
+[0.795609] (wit_ros2_imu) StdoutLine: {'line': b'copying resource/wit_ros2_imu -> /home/bracualter-base/alter_ws/install/wit_ros2_imu/share/ament_index/resource_index/packages\n'}
+[0.795650] (wit_ros2_imu) StdoutLine: {'line': b'copying package.xml -> /home/bracualter-base/alter_ws/install/wit_ros2_imu/share/wit_ros2_imu\n'}
+[0.795706] (wit_ros2_imu) StdoutLine: {'line': b'copying launch/rviz_and_imu.launch.py -> /home/bracualter-base/alter_ws/install/wit_ros2_imu/share/wit_ros2_imu\n'}
+[0.795742] (wit_ros2_imu) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.801398] (-) TimerEvent: {}
+[0.807872] (wit_ros2_imu) StdoutLine: {'line': b'Copying ../../build/wit_ros2_imu/wit_ros2_imu.egg-info to /home/bracualter-base/alter_ws/install/wit_ros2_imu/lib/python3.12/site-packages/wit_ros2_imu-0.0.0-py3.12.egg-info\n'}
+[0.808419] (wit_ros2_imu) StdoutLine: {'line': b'running install_scripts\n'}
+[0.886893] (wit_ros2_imu) StdoutLine: {'line': b'Installing wit_ros2_imu script to /home/bracualter-base/alter_ws/install/wit_ros2_imu/lib/wit_ros2_imu\n'}
+[0.887027] (wit_ros2_imu) StdoutLine: {'line': b"writing list of installed files to '/home/bracualter-base/alter_ws/build/wit_ros2_imu/install.log'\n"}
+[0.901524] (-) TimerEvent: {}
+[0.907046] (wit_ros2_imu) CommandEnded: {'returncode': 0}
+[0.918529] (wit_ros2_imu) JobEnded: {'identifier': 'wit_ros2_imu', 'rc': 0}
+[0.919836] (-) EventReactorShutdown: {}

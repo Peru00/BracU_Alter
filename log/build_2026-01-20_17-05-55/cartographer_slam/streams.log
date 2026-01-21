@@ -1,0 +1,24 @@
+[0.008s] Invoking command in '/home/bracualter-base/alter_ws/build/cartographer_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bracualter-base/alter_ws/install/wit_ros2_imu:/home/bracualter-base/ros2_ws/install/wit_ros2_imu:/home/bracualter-base/ros2_ws/install/joy_control:/home/bracualter-base/ros2_ws/install/demo_description:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/bracualter-base/alter_ws/build/cartographer_slam -- -j16 -l16
+[0.049s] Invoked command in '/home/bracualter-base/alter_ws/build/cartographer_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bracualter-base/alter_ws/install/wit_ros2_imu:/home/bracualter-base/ros2_ws/install/wit_ros2_imu:/home/bracualter-base/ros2_ws/install/joy_control:/home/bracualter-base/ros2_ws/install/demo_description:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/bracualter-base/alter_ws/build/cartographer_slam -- -j16 -l16
+[0.050s] Invoking command in '/home/bracualter-base/alter_ws/build/cartographer_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bracualter-base/alter_ws/install/wit_ros2_imu:/home/bracualter-base/ros2_ws/install/wit_ros2_imu:/home/bracualter-base/ros2_ws/install/joy_control:/home/bracualter-base/ros2_ws/install/demo_description:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/bracualter-base/alter_ws/build/cartographer_slam
+[0.056s] -- Install configuration: ""
+[0.056s] -- Up-to-date: /home/bracualter-base/alter_ws/install/cartographer_slam/share/cartographer_slam/launch
+[0.056s] -- Up-to-date: /home/bracualter-base/alter_ws/install/cartographer_slam/share/cartographer_slam/launch/cartographer_2d.launch.py
+[0.056s] -- Up-to-date: /home/bracualter-base/alter_ws/install/cartographer_slam/share/cartographer_slam/config
+[0.056s] -- Up-to-date: /home/bracualter-base/alter_ws/install/cartographer_slam/share/cartographer_slam/config/cartographer_2d.lua
+[0.056s] -- Up-to-date: /home/bracualter-base/alter_ws/install/cartographer_slam/share/ament_index/resource_index/package_run_dependencies/cartographer_slam
+[0.056s] -- Up-to-date: /home/bracualter-base/alter_ws/install/cartographer_slam/share/ament_index/resource_index/parent_prefix_path/cartographer_slam
+[0.056s] -- Up-to-date: /home/bracualter-base/alter_ws/install/cartographer_slam/share/cartographer_slam/environment/ament_prefix_path.sh
+[0.056s] -- Up-to-date: /home/bracualter-base/alter_ws/install/cartographer_slam/share/cartographer_slam/environment/ament_prefix_path.dsv
+[0.057s] -- Up-to-date: /home/bracualter-base/alter_ws/install/cartographer_slam/share/cartographer_slam/environment/path.sh
+[0.057s] -- Up-to-date: /home/bracualter-base/alter_ws/install/cartographer_slam/share/cartographer_slam/environment/path.dsv
+[0.057s] -- Up-to-date: /home/bracualter-base/alter_ws/install/cartographer_slam/share/cartographer_slam/local_setup.bash
+[0.057s] -- Up-to-date: /home/bracualter-base/alter_ws/install/cartographer_slam/share/cartographer_slam/local_setup.sh
+[0.058s] -- Up-to-date: /home/bracualter-base/alter_ws/install/cartographer_slam/share/cartographer_slam/local_setup.zsh
+[0.058s] -- Up-to-date: /home/bracualter-base/alter_ws/install/cartographer_slam/share/cartographer_slam/local_setup.dsv
+[0.058s] -- Up-to-date: /home/bracualter-base/alter_ws/install/cartographer_slam/share/cartographer_slam/package.dsv
+[0.058s] -- Up-to-date: /home/bracualter-base/alter_ws/install/cartographer_slam/share/ament_index/resource_index/packages/cartographer_slam
+[0.058s] -- Up-to-date: /home/bracualter-base/alter_ws/install/cartographer_slam/share/cartographer_slam/cmake/cartographer_slamConfig.cmake
+[0.058s] -- Up-to-date: /home/bracualter-base/alter_ws/install/cartographer_slam/share/cartographer_slam/cmake/cartographer_slamConfig-version.cmake
+[0.058s] -- Up-to-date: /home/bracualter-base/alter_ws/install/cartographer_slam/share/cartographer_slam/package.xml
+[0.058s] Invoked command in '/home/bracualter-base/alter_ws/build/cartographer_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bracualter-base/alter_ws/install/wit_ros2_imu:/home/bracualter-base/ros2_ws/install/wit_ros2_imu:/home/bracualter-base/ros2_ws/install/joy_control:/home/bracualter-base/ros2_ws/install/demo_description:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/bracualter-base/alter_ws/build/cartographer_slam

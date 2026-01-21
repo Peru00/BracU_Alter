@@ -1,0 +1,65 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found cartographer_ros: 2.0.9003 (/opt/ros/jazzy/share/cartographer_ros/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found AMD headers in: /usr/include/suitesparse
+-- Found AMD library: /usr/lib/x86_64-linux-gnu/libamd.so
+-- Found CAMD headers in: /usr/include/suitesparse
+-- Found CAMD library: /usr/lib/x86_64-linux-gnu/libcamd.so
+-- Found CCOLAMD headers in: /usr/include/suitesparse
+-- Found CCOLAMD library: /usr/lib/x86_64-linux-gnu/libccolamd.so
+-- Found CHOLMOD headers in: /usr/include/suitesparse
+-- Found CHOLMOD library: /usr/lib/x86_64-linux-gnu/libcholmod.so
+-- Found COLAMD headers in: /usr/include/suitesparse
+-- Found COLAMD library: /usr/lib/x86_64-linux-gnu/libcolamd.so
+-- Found SPQR headers in: /usr/include/suitesparse
+-- Found SPQR library: /usr/lib/x86_64-linux-gnu/libspqr.so
+-- Found Config headers in: /usr/include/suitesparse
+-- Found Config library: /usr/lib/x86_64-linux-gnu/libsuitesparseconfig.so
+-- Found Intel Thread Building Blocks (TBB) library (2021.11 / ) include location: . Assuming SuiteSparseQR was compiled with TBB.
+-- Adding librt to SuiteSparse_config libraries (required on Linux & Unix [not OSX] if SuiteSparse is compiled with timing).
+-- Could NOT find METIS (missing: METIS_INCLUDE_DIR METIS_LIBRARY) 
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found flann version 1.9.2
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+-- Could NOT find Pcap (missing: PCAP_LIBRARIES PCAP_INCLUDE_DIRS) 
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+-- Found Qhull version 8.0.2
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (3.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/bracualter-base/alter_ws/build/cartographer_slam
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/bracualter-base/alter_ws/install/cartographer_slam/share/cartographer_slam/launch/cartographer_2d.launch.py
+-- Symlinking: /home/bracualter-base/alter_ws/install/cartographer_slam/share/cartographer_slam/config/cartographer_2d.lua
+-- Symlinking: /home/bracualter-base/alter_ws/install/cartographer_slam/share/ament_index/resource_index/package_run_dependencies/cartographer_slam
+-- Symlinking: /home/bracualter-base/alter_ws/install/cartographer_slam/share/ament_index/resource_index/parent_prefix_path/cartographer_slam
+-- Symlinking: /home/bracualter-base/alter_ws/install/cartographer_slam/share/cartographer_slam/environment/ament_prefix_path.sh
+-- Symlinking: /home/bracualter-base/alter_ws/install/cartographer_slam/share/cartographer_slam/environment/ament_prefix_path.dsv
+-- Symlinking: /home/bracualter-base/alter_ws/install/cartographer_slam/share/cartographer_slam/environment/path.sh
+-- Symlinking: /home/bracualter-base/alter_ws/install/cartographer_slam/share/cartographer_slam/environment/path.dsv
+-- Symlinking: /home/bracualter-base/alter_ws/install/cartographer_slam/share/cartographer_slam/local_setup.bash
+-- Symlinking: /home/bracualter-base/alter_ws/install/cartographer_slam/share/cartographer_slam/local_setup.sh
+-- Symlinking: /home/bracualter-base/alter_ws/install/cartographer_slam/share/cartographer_slam/local_setup.zsh
+-- Symlinking: /home/bracualter-base/alter_ws/install/cartographer_slam/share/cartographer_slam/local_setup.dsv
+-- Symlinking: /home/bracualter-base/alter_ws/install/cartographer_slam/share/cartographer_slam/package.dsv
+-- Symlinking: /home/bracualter-base/alter_ws/install/cartographer_slam/share/ament_index/resource_index/packages/cartographer_slam
+-- Symlinking: /home/bracualter-base/alter_ws/install/cartographer_slam/share/cartographer_slam/cmake/cartographer_slamConfig.cmake
+-- Symlinking: /home/bracualter-base/alter_ws/install/cartographer_slam/share/cartographer_slam/cmake/cartographer_slamConfig-version.cmake
+-- Symlinking: /home/bracualter-base/alter_ws/install/cartographer_slam/share/cartographer_slam/package.xml
