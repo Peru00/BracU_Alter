@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-e98ca44767329f8296fe.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "serial_motor_bridge",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_serial_motor_bridge_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_serial_motor_bridge_egg-2ed93e7b74090c8331c0.json",
+					"name" : "ament_cmake_python_build_serial_motor_bridge_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_serial_motor_bridge::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_serial_motor_bridge-ef25b3a2ee31dc4266d4.json",
+					"name" : "ament_cmake_python_copy_serial_motor_bridge",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "serial_motor_bridge_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-serial_motor_bridge_uninstall-93a43193efdffc77ce42.json",
+					"name" : "serial_motor_bridge_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-d1d6af7a0c50878a9357.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/bracualter-base/alter_ws/build/serial_motor_bridge",
+		"source" : "/home/bracualter-base/alter_ws/src/serial_motor_bridge"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

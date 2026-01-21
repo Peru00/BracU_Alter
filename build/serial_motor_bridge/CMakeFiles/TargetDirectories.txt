@@ -1,0 +1,11 @@
+/home/bracualter-base/alter_ws/build/serial_motor_bridge/CMakeFiles/uninstall.dir
+/home/bracualter-base/alter_ws/build/serial_motor_bridge/CMakeFiles/serial_motor_bridge_uninstall.dir
+/home/bracualter-base/alter_ws/build/serial_motor_bridge/CMakeFiles/ament_cmake_python_copy_serial_motor_bridge.dir
+/home/bracualter-base/alter_ws/build/serial_motor_bridge/CMakeFiles/ament_cmake_python_build_serial_motor_bridge_egg.dir
+/home/bracualter-base/alter_ws/build/serial_motor_bridge/CMakeFiles/test.dir
+/home/bracualter-base/alter_ws/build/serial_motor_bridge/CMakeFiles/edit_cache.dir
+/home/bracualter-base/alter_ws/build/serial_motor_bridge/CMakeFiles/rebuild_cache.dir
+/home/bracualter-base/alter_ws/build/serial_motor_bridge/CMakeFiles/list_install_components.dir
+/home/bracualter-base/alter_ws/build/serial_motor_bridge/CMakeFiles/install.dir
+/home/bracualter-base/alter_ws/build/serial_motor_bridge/CMakeFiles/install/local.dir
+/home/bracualter-base/alter_ws/build/serial_motor_bridge/CMakeFiles/install/strip.dir

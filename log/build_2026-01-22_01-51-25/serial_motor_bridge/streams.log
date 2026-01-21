@@ -1,0 +1,83 @@
+[0.282s] Invoking command in '/home/bracualter-base/alter_ws/build/serial_motor_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bracualter-base/alter_ws/install/wit_ros2_imu:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/bracualter-base/alter_ws/src/serial_motor_bridge -DCMAKE_INSTALL_PREFIX=/home/bracualter-base/alter_ws/install/serial_motor_bridge
+[0.400s] -- The C compiler identification is GNU 13.3.0
+[0.510s] -- The CXX compiler identification is GNU 13.3.0
+[0.534s] -- Detecting C compiler ABI info
+[0.636s] -- Detecting C compiler ABI info - done
+[0.646s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.646s] -- Detecting C compile features
+[0.647s] -- Detecting C compile features - done
+[0.659s] -- Detecting CXX compiler ABI info
+[0.766s] -- Detecting CXX compiler ABI info - done
+[0.780s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.780s] -- Detecting CXX compile features
+[0.781s] -- Detecting CXX compile features - done
+[0.791s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.943s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.057s] -- Found rclpy: 7.1.6 (/opt/ros/jazzy/share/rclpy/cmake)
+[1.061s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.117s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.141s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.164s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.190s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.371s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.487s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.490s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.490s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.491s] -- Added test 'lint_cmake' to check CMake code style
+[1.491s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.493s] -- Added test 'xmllint' to check XML markup files
+[1.494s] -- Configuring done (1.2s)
+[1.498s] -- Generating done (0.0s)
+[1.499s] -- Build files have been written to: /home/bracualter-base/alter_ws/build/serial_motor_bridge
+[1.506s] Invoked command in '/home/bracualter-base/alter_ws/build/serial_motor_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bracualter-base/alter_ws/install/wit_ros2_imu:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/bracualter-base/alter_ws/src/serial_motor_bridge -DCMAKE_INSTALL_PREFIX=/home/bracualter-base/alter_ws/install/serial_motor_bridge
+[1.507s] Invoking command in '/home/bracualter-base/alter_ws/build/serial_motor_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bracualter-base/alter_ws/install/wit_ros2_imu:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/bracualter-base/alter_ws/build/serial_motor_bridge -- -j16 -l16
+[1.554s] Built target ament_cmake_python_copy_serial_motor_bridge
+[1.763s] running egg_info
+[1.764s] creating serial_motor_bridge.egg-info
+[1.781s] writing serial_motor_bridge.egg-info/PKG-INFO
+[1.781s] writing dependency_links to serial_motor_bridge.egg-info/dependency_links.txt
+[1.781s] writing top-level names to serial_motor_bridge.egg-info/top_level.txt
+[1.781s] writing manifest file 'serial_motor_bridge.egg-info/SOURCES.txt'
+[1.835s] reading manifest file 'serial_motor_bridge.egg-info/SOURCES.txt'
+[1.836s] writing manifest file 'serial_motor_bridge.egg-info/SOURCES.txt'
+[1.864s] Built target ament_cmake_python_build_serial_motor_bridge_egg
+[1.875s] Invoked command in '/home/bracualter-base/alter_ws/build/serial_motor_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bracualter-base/alter_ws/install/wit_ros2_imu:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/bracualter-base/alter_ws/build/serial_motor_bridge -- -j16 -l16
+[1.876s] Invoking command in '/home/bracualter-base/alter_ws/build/serial_motor_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bracualter-base/alter_ws/install/wit_ros2_imu:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/bracualter-base/alter_ws/build/serial_motor_bridge
+[1.885s] -- Install configuration: ""
+[1.886s] -- Installing: /home/bracualter-base/alter_ws/install/serial_motor_bridge/share/serial_motor_bridge/environment/pythonpath.sh
+[1.886s] -- Installing: /home/bracualter-base/alter_ws/install/serial_motor_bridge/share/serial_motor_bridge/environment/pythonpath.dsv
+[1.886s] -- Installing: /home/bracualter-base/alter_ws/install/serial_motor_bridge/lib/python3.12/site-packages/serial_motor_bridge-0.0.1-py3.12.egg-info
+[1.886s] -- Installing: /home/bracualter-base/alter_ws/install/serial_motor_bridge/lib/python3.12/site-packages/serial_motor_bridge-0.0.1-py3.12.egg-info/dependency_links.txt
+[1.886s] -- Installing: /home/bracualter-base/alter_ws/install/serial_motor_bridge/lib/python3.12/site-packages/serial_motor_bridge-0.0.1-py3.12.egg-info/PKG-INFO
+[1.886s] -- Installing: /home/bracualter-base/alter_ws/install/serial_motor_bridge/lib/python3.12/site-packages/serial_motor_bridge-0.0.1-py3.12.egg-info/top_level.txt
+[1.886s] -- Installing: /home/bracualter-base/alter_ws/install/serial_motor_bridge/lib/python3.12/site-packages/serial_motor_bridge-0.0.1-py3.12.egg-info/SOURCES.txt
+[1.886s] -- Installing: /home/bracualter-base/alter_ws/install/serial_motor_bridge/lib/python3.12/site-packages/serial_motor_bridge
+[1.886s] -- Installing: /home/bracualter-base/alter_ws/install/serial_motor_bridge/lib/python3.12/site-packages/serial_motor_bridge/__init__.py
+[1.923s] Listing '/home/bracualter-base/alter_ws/install/serial_motor_bridge/lib/python3.12/site-packages/serial_motor_bridge'...
+[1.924s] Compiling '/home/bracualter-base/alter_ws/install/serial_motor_bridge/lib/python3.12/site-packages/serial_motor_bridge/__init__.py'...
+[1.929s] -- Installing: /home/bracualter-base/alter_ws/install/serial_motor_bridge/lib/serial_motor_bridge/serial_motor_node.py
+[1.929s] -- Installing: /home/bracualter-base/alter_ws/install/serial_motor_bridge/share/serial_motor_bridge//launch
+[1.929s] -- Installing: /home/bracualter-base/alter_ws/install/serial_motor_bridge/share/serial_motor_bridge//launch/teleop_joy.launch.py
+[1.929s] -- Installing: /home/bracualter-base/alter_ws/install/serial_motor_bridge/share/serial_motor_bridge//launch/serial_motor_bridge.launch.py
+[1.929s] -- Installing: /home/bracualter-base/alter_ws/install/serial_motor_bridge/share/serial_motor_bridge//config
+[1.929s] -- Installing: /home/bracualter-base/alter_ws/install/serial_motor_bridge/share/serial_motor_bridge//config/serial_motor_params.yaml
+[1.929s] -- Installing: /home/bracualter-base/alter_ws/install/serial_motor_bridge/share/serial_motor_bridge//config/teleop_joy_params.yaml
+[1.929s] -- Installing: /home/bracualter-base/alter_ws/install/serial_motor_bridge/share/serial_motor_bridge//arduino
+[1.930s] -- Installing: /home/bracualter-base/alter_ws/install/serial_motor_bridge/share/serial_motor_bridge//arduino/differential_drive_controller
+[1.930s] -- Installing: /home/bracualter-base/alter_ws/install/serial_motor_bridge/share/serial_motor_bridge//arduino/differential_drive_controller/differential_drive_controller.ino
+[1.930s] -- Installing: /home/bracualter-base/alter_ws/install/serial_motor_bridge/share/ament_index/resource_index/package_run_dependencies/serial_motor_bridge
+[1.930s] -- Installing: /home/bracualter-base/alter_ws/install/serial_motor_bridge/share/ament_index/resource_index/parent_prefix_path/serial_motor_bridge
+[1.930s] -- Installing: /home/bracualter-base/alter_ws/install/serial_motor_bridge/share/serial_motor_bridge/environment/ament_prefix_path.sh
+[1.930s] -- Installing: /home/bracualter-base/alter_ws/install/serial_motor_bridge/share/serial_motor_bridge/environment/ament_prefix_path.dsv
+[1.930s] -- Installing: /home/bracualter-base/alter_ws/install/serial_motor_bridge/share/serial_motor_bridge/environment/path.sh
+[1.930s] -- Installing: /home/bracualter-base/alter_ws/install/serial_motor_bridge/share/serial_motor_bridge/environment/path.dsv
+[1.930s] -- Installing: /home/bracualter-base/alter_ws/install/serial_motor_bridge/share/serial_motor_bridge/local_setup.bash
+[1.930s] -- Installing: /home/bracualter-base/alter_ws/install/serial_motor_bridge/share/serial_motor_bridge/local_setup.sh
+[1.930s] -- Installing: /home/bracualter-base/alter_ws/install/serial_motor_bridge/share/serial_motor_bridge/local_setup.zsh
+[1.930s] -- Installing: /home/bracualter-base/alter_ws/install/serial_motor_bridge/share/serial_motor_bridge/local_setup.dsv
+[1.930s] -- Installing: /home/bracualter-base/alter_ws/install/serial_motor_bridge/share/serial_motor_bridge/package.dsv
+[1.930s] -- Installing: /home/bracualter-base/alter_ws/install/serial_motor_bridge/share/ament_index/resource_index/packages/serial_motor_bridge
+[1.930s] -- Installing: /home/bracualter-base/alter_ws/install/serial_motor_bridge/share/serial_motor_bridge/cmake/serial_motor_bridgeConfig.cmake
+[1.930s] -- Installing: /home/bracualter-base/alter_ws/install/serial_motor_bridge/share/serial_motor_bridge/cmake/serial_motor_bridgeConfig-version.cmake
+[1.930s] -- Installing: /home/bracualter-base/alter_ws/install/serial_motor_bridge/share/serial_motor_bridge/package.xml
+[1.932s] Invoked command in '/home/bracualter-base/alter_ws/build/serial_motor_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bracualter-base/alter_ws/install/wit_ros2_imu:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/bracualter-base/alter_ws/build/serial_motor_bridge

@@ -2076,3 +2076,217 @@ events:
         
       exitCode: 0
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:275 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:324 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:567 (find_external_library)"
+      - "/opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "/opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)"
+      - "/opt/ros/jazzy/share/cartographer_ros/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "/opt/ros/jazzy/share/cartographer_ros/cmake/cartographer_rosConfig.cmake:41 (include)"
+      - "CMakeLists.txt:10 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/bracualter-base/alter_ws/build/cartographer_slam/CMakeFiles/CMakeScratch/TryCompile-OgfnEM"
+      binary: "/home/bracualter-base/alter_ws/build/cartographer_slam/CMakeFiles/CMakeScratch/TryCompile-OgfnEM"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/opt/ros/jazzy/share/fastrtps_cmake_module/cmake/Modules;/opt/ros/jazzy/share/cartographer/cmake/modules;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/bracualter-base/alter_ws/build/cartographer_slam/CMakeFiles/CMakeScratch/TryCompile-OgfnEM'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_8868d/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_8868d.dir/build.make CMakeFiles/cmTC_8868d.dir/build
+        gmake[1]: Entering directory '/home/bracualter-base/alter_ws/build/cartographer_slam/CMakeFiles/CMakeScratch/TryCompile-OgfnEM'
+        Building C object CMakeFiles/cmTC_8868d.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_8868d.dir/test_mpi.c.o -c /home/bracualter-base/alter_ws/build/cartographer_slam/CMakeFiles/CMakeScratch/TryCompile-OgfnEM/test_mpi.c
+        Linking C executable cmTC_8868d
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8868d.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_8868d.dir/test_mpi.c.o -o cmTC_8868d  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[1]: Leaving directory '/home/bracualter-base/alter_ws/build/cartographer_slam/CMakeFiles/CMakeScratch/TryCompile-OgfnEM'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:275 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:324 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:567 (find_external_library)"
+      - "/opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "/opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)"
+      - "/opt/ros/jazzy/share/cartographer_ros/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "/opt/ros/jazzy/share/cartographer_ros/cmake/cartographer_rosConfig.cmake:41 (include)"
+      - "CMakeLists.txt:10 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/bracualter-base/alter_ws/build/cartographer_slam/CMakeFiles/CMakeScratch/TryCompile-eBiErC"
+      binary: "/home/bracualter-base/alter_ws/build/cartographer_slam/CMakeFiles/CMakeScratch/TryCompile-eBiErC"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/opt/ros/jazzy/share/fastrtps_cmake_module/cmake/Modules;/opt/ros/jazzy/share/cartographer/cmake/modules;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/bracualter-base/alter_ws/build/cartographer_slam/CMakeFiles/CMakeScratch/TryCompile-eBiErC'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_22d10/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_22d10.dir/build.make CMakeFiles/cmTC_22d10.dir/build
+        gmake[1]: Entering directory '/home/bracualter-base/alter_ws/build/cartographer_slam/CMakeFiles/CMakeScratch/TryCompile-eBiErC'
+        Building C object CMakeFiles/cmTC_22d10.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_22d10.dir/test_mpi.c.o -c /home/bracualter-base/alter_ws/build/cartographer_slam/CMakeFiles/CMakeScratch/TryCompile-eBiErC/test_mpi.c
+        Linking C executable cmTC_22d10
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_22d10.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_22d10.dir/test_mpi.c.o -o cmTC_22d10  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[1]: Leaving directory '/home/bracualter-base/alter_ws/build/cartographer_slam/CMakeFiles/CMakeScratch/TryCompile-eBiErC'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:275 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:324 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)"
+      - "/opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "/opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)"
+      - "/opt/ros/jazzy/share/cartographer_ros/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "/opt/ros/jazzy/share/cartographer_ros/cmake/cartographer_rosConfig.cmake:41 (include)"
+      - "CMakeLists.txt:10 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/bracualter-base/alter_ws/build/cartographer_slam/CMakeFiles/CMakeScratch/TryCompile-FBGk2p"
+      binary: "/home/bracualter-base/alter_ws/build/cartographer_slam/CMakeFiles/CMakeScratch/TryCompile-FBGk2p"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/opt/ros/jazzy/share/fastrtps_cmake_module/cmake/Modules;/opt/ros/jazzy/share/cartographer/cmake/modules;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/bracualter-base/alter_ws/build/cartographer_slam/CMakeFiles/CMakeScratch/TryCompile-FBGk2p'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_6eacc/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_6eacc.dir/build.make CMakeFiles/cmTC_6eacc.dir/build
+        gmake[1]: Entering directory '/home/bracualter-base/alter_ws/build/cartographer_slam/CMakeFiles/CMakeScratch/TryCompile-FBGk2p'
+        Building C object CMakeFiles/cmTC_6eacc.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_6eacc.dir/test_mpi.c.o -c /home/bracualter-base/alter_ws/build/cartographer_slam/CMakeFiles/CMakeScratch/TryCompile-FBGk2p/test_mpi.c
+        Linking C executable cmTC_6eacc
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6eacc.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_6eacc.dir/test_mpi.c.o -o cmTC_6eacc  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[1]: Leaving directory '/home/bracualter-base/alter_ws/build/cartographer_slam/CMakeFiles/CMakeScratch/TryCompile-FBGk2p'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:275 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:324 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:567 (find_external_library)"
+      - "/opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "/opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)"
+      - "/opt/ros/jazzy/share/cartographer_ros/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "/opt/ros/jazzy/share/cartographer_ros/cmake/cartographer_rosConfig.cmake:41 (include)"
+      - "CMakeLists.txt:10 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/bracualter-base/alter_ws/build/cartographer_slam/CMakeFiles/CMakeScratch/TryCompile-qNREfI"
+      binary: "/home/bracualter-base/alter_ws/build/cartographer_slam/CMakeFiles/CMakeScratch/TryCompile-qNREfI"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/opt/ros/jazzy/share/fastrtps_cmake_module/cmake/Modules;/opt/ros/jazzy/share/cartographer/cmake/modules;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/bracualter-base/alter_ws/build/cartographer_slam/CMakeFiles/CMakeScratch/TryCompile-qNREfI'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_4eb07/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_4eb07.dir/build.make CMakeFiles/cmTC_4eb07.dir/build
+        gmake[1]: Entering directory '/home/bracualter-base/alter_ws/build/cartographer_slam/CMakeFiles/CMakeScratch/TryCompile-qNREfI'
+        Building C object CMakeFiles/cmTC_4eb07.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_4eb07.dir/test_mpi.c.o -c /home/bracualter-base/alter_ws/build/cartographer_slam/CMakeFiles/CMakeScratch/TryCompile-qNREfI/test_mpi.c
+        Linking C executable cmTC_4eb07
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4eb07.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_4eb07.dir/test_mpi.c.o -o cmTC_4eb07  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[1]: Leaving directory '/home/bracualter-base/alter_ws/build/cartographer_slam/CMakeFiles/CMakeScratch/TryCompile-qNREfI'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:275 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:324 (find_VTK)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:567 (find_external_library)"
+      - "/opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "/opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)"
+      - "/opt/ros/jazzy/share/cartographer_ros/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)"
+      - "/opt/ros/jazzy/share/cartographer_ros/cmake/cartographer_rosConfig.cmake:41 (include)"
+      - "CMakeLists.txt:10 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/bracualter-base/alter_ws/build/cartographer_slam/CMakeFiles/CMakeScratch/TryCompile-RZ11gz"
+      binary: "/home/bracualter-base/alter_ws/build/cartographer_slam/CMakeFiles/CMakeScratch/TryCompile-RZ11gz"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1;/opt/ros/jazzy/share/fastrtps_cmake_module/cmake/Modules;/opt/ros/jazzy/share/cartographer/cmake/modules;/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/bracualter-base/alter_ws/build/cartographer_slam/CMakeFiles/CMakeScratch/TryCompile-RZ11gz'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c29d5/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_c29d5.dir/build.make CMakeFiles/cmTC_c29d5.dir/build
+        gmake[1]: Entering directory '/home/bracualter-base/alter_ws/build/cartographer_slam/CMakeFiles/CMakeScratch/TryCompile-RZ11gz'
+        Building C object CMakeFiles/cmTC_c29d5.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_c29d5.dir/test_mpi.c.o -c /home/bracualter-base/alter_ws/build/cartographer_slam/CMakeFiles/CMakeScratch/TryCompile-RZ11gz/test_mpi.c
+        Linking C executable cmTC_c29d5
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c29d5.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_c29d5.dir/test_mpi.c.o -o cmTC_c29d5  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[1]: Leaving directory '/home/bracualter-base/alter_ws/build/cartographer_slam/CMakeFiles/CMakeScratch/TryCompile-RZ11gz'
+        
+      exitCode: 0
+...

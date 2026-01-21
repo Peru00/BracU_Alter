@@ -1,0 +1,6 @@
+setup.py
+serial_motor_bridge/__init__.py
+serial_motor_bridge.egg-info/PKG-INFO
+serial_motor_bridge.egg-info/SOURCES.txt
+serial_motor_bridge.egg-info/dependency_links.txt
+serial_motor_bridge.egg-info/top_level.txt
